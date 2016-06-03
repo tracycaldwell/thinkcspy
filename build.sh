@@ -1,5 +1,5 @@
 #!/bin/sh
 
 runestone build
-rm -r ../../static/thinkcspy/
-mv build/thinkcspy/ ../../static/
+rm -r ../../static/thinkcspy-online/
+mv build/thinkcspy-online/ ../../static/

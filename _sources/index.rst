@@ -12,7 +12,7 @@
 
 .. raw:: html
 
-Think Python - LaunchCode Edition
+Think Python - LaunchCode Edition (Online)
 =============================================
 
 This is an interactive version of the open-source textbook *How to Think Like A Computer Scientist: Learning with Python*. It is adapted from the original interactive version hosted at `interativepython.org <http://interactivepython.org/runestone/static/thinkcspy/index.html>`_, which in turn was based off of the `original work <http://www.openbookproject.net/thinkcs/python/english2e/>`_.

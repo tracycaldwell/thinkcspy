@@ -17,12 +17,12 @@ except ImportError:
 
 
 ######## CHANGE THIS ##########
-project_name = "thinkcspy"
+project_name = "thinkcspy-online"
 ###############################
 
 master_url = 'http://127.0.0.1:8000'
 master_app = 'runestone'
-serving_dir = "./build/thinkcspy"
+serving_dir = "./build/thinkcspy-online"
 dest = "../../static"
 
 options(
