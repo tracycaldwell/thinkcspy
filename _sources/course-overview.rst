@@ -48,7 +48,6 @@ Navigating This Website
 -----------------------
 
 In the top-right corner of the page is a dropdown menu that links to a bunch of useful things, including:
-    * the Course Schedule
     * the Table of Contents
     * Vocareum
     * Piazza
