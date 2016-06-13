@@ -53,8 +53,8 @@
       </button>
 
       <div>
-        <a class="brand-logo" style='background: transparent url("{{pathto('_static/img/lc_logo_small.png', 1)}}") no-repeat 0px 0px;' href="/runestone/static/thinkcspy/index.html">&nbsp; </a>
-        <a class="navbar-brand" href="/runestone/static/thinkcspy/index.html">{% if theme_navbar_title -%}{{ theme_navbar_title|e }}{%- else -%}{{ project|e }}{%- endif -%}</a>
+        <a class="brand-logo" style='background: transparent url("{{pathto('_static/img/lc_logo_small.png', 1)}}") no-repeat 0px 0px;' href="/runestone/static/thinkcspy-online/index.html">&nbsp; </a>
+        <a class="navbar-brand" href="/runestone/static/thinkcspy-online/index.html">{% if theme_navbar_title -%}{{ theme_navbar_title|e }}{%- else -%}{{ project|e }}{%- endif -%}</a>
       </div>
     </div>
 
@@ -64,21 +64,23 @@
 
         <li class="divider-vertical"></li>
 
+
+        <!-- scratch code dropdown -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+            <i class="glyphicon glyphicon-edit" style='opacity:0.9;'></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li id="scratch_ac_link"><a href="javascript:ACFactory.toggleScratchActivecode()">Scratch ActiveCode</a></li>
+          </ul>
+        </li>
+
         <!-- search dropdown -->
         <li class="dropdown">
           <a class="dropdown-toggle" href="#" data-toggle="dropdown">
             <i class="glyphicon glyphicon-search" style='opacity:0.9;'></i>
           </a>
           <ul class='dropdown-menu'>
-            {% if 'overview' in course_id %}
-                <li><a href='/{{appname}}/static/{{course_id}}/overview.html'>Table of Contents</a></li>
-            {% else: %}
-                <li><a href='{{ pathto(master_doc) }}'>Table of Contents</a></li>
-            {% endif %}
-            <li><a href='/{{appname}}/static/{{course_id}}/genindex.html'>Book Index</a></li>
-            <li class="divider"></li>
-            <li id="scratch_ac_link"><a href="javascript:ACFactory.toggleScratchActivecode()">Scratch ActiveCode</a></li>
-            <li class="divider"></li>
             <li style="width: 240px;">
               <form class="navbar-search" style="margin:10px;" action="{{ pathto('search') }}" method="get">
                 <div class="input-group">
@@ -93,24 +95,28 @@
                 <input type="hidden" name="area" value="default" />
               </form>
             </li>
+            <li class="divider"></li>
+            <li><a href='/{{appname}}/static/{{course_id}}/genindex.html'>Directory of Concepts</a></li>
           </ul>
         </li>
         <!-- end search dropdown -->
 
         <li class="divider-vertical"></li>
 
-        <!-- user account dropdown -->
+        <!-- navigation dropdown -->
         <li class="dropdown">
           <a class="dropdown-toggle" href="#" data-toggle="dropdown">
-            <i class="glyphicon glyphicon-user" style="opacity:0.9;"></i>
+            <i class="glyphicon glyphicon-align-justify" style="opacity:0.9;"></i>
           </a>
           <ul class="dropdown-menu user-menu">
             <li><span class='loggedinuser'></span></li>
             <li class="divider"></li>
-            <li><a href="/runestone/static/thinkcspy/index.html">Course Home Page</a></li>
-            <li><a href="/runestone/static/thinkcspy/toc.html">Table of Contents</a></li>
-            <li><a href="https://piazza.com/" target="_blank">Piazza</a></li>
+            <li><a href="/runestone/static/thinkcspy-online/course-overview.html">Course Overview</a></li>
+            <li><a href="/runestone/static/thinkcspy-online/toc.html">Table of Contents</a></li>
+            <li class="divider"></li>
+            <li><a href="https://piazza.com/class/iovwojw1rc51bm" target="_blank">Piazza</a></li>
             <li><a href="https://labs.vocareum.com/home/login.php" target="_blank">Vocareum</a></li>
+            <li><a href="https://lcmentorcenterevening.slack.com/" target="_blank">Slack</a></li>
             <li class="divider"></li>
             <li><a href="{{course_url}}/{{appname}}/default/user/profile" id="profilelink">Edit Profile</a></li>
             <li><a href="{{course_url}}/{{appname}}/default/user/change_password" id="passwordlink">Change Password</a></li>
@@ -118,7 +124,7 @@
             <li class='loginout'><a href='#'>Login</a></li> <!-- correct link populated by addNavbarLoginLink() -->
           </ul>
         </li>
-        <!-- end user account dropdown -->
+        <!-- end navigation dropdown -->
 
     </div>
   </div>
