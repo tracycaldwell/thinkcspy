@@ -4,10 +4,12 @@ Course Overview
 Read this page for details on how this course works, what you must do to pass the course, how to submit your work, and how to get help.
 
 
-Before Class
+Your Work
     * **Read:** Each chapter in the book contains a handful of pages you should read. The readings are interspersed with interactive components such as active code examples with which you can tinker and explore, and multiple-choice questions so you can self-check your understanding.
     * **Attempt Exercises:** At the end of each chapter is a page containing a handful of exercises for you to practice. Some are easy, others are hard. You will probably spend the majority of your time working on these exercises. You do not have to complete them all, but you must attempt at least 5 for each chapter. You are encouraged to to more, and to try to get them correct, but the minimum is that you attempt at least 5.
 
+Pacing
+    * Try to do around 2 chapters per week, spending 15 - 20 total hours.
 
 Requirements
 ------------
