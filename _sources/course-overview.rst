@@ -3,24 +3,12 @@ Course Overview
 
 Read this page for details on how this course works, what you must do to pass the course, how to submit your work, and how to get help.
 
-Class Rhythm
-------------
 
-In this course, there are two settings in which you will learn and work on stuff:
 
-* **Before Class:** Before each class period, you should read the next chapter from the book, and work on the associated exercises.
-* **During Class:** During class time, we will go over the material you read, and work on practice problems in small groups.
 
 Before Class
     * **Read:** Each chapter in the book contains a handful of pages you should read. The readings are interspersed with interactive components such as active code examples with which you can tinker and explore, and multiple-choice questions so you can self-check your understanding.
     * **Attempt Exercises:** At the end of each chapter is a page containing a handful of exercises for you to practice. Some are easy, others are hard. You will probably spend the majority of your time working on these exercises. You do not have to complete them all, but you must attempt at least 5 for each chapter. You are encouraged to to more, and to try to get them correct, but the minimum is that you attempt at least 5.
-
-During Class
-    * **Review:** In class, we will review the material from the chapter you read, with live examples and question-and-answer sessions.
-    * **Studios:** You will sometimes be asked to work together in small groups on another practice exercise called a "Studio".
-
-
-See the `Course Schedule`_ for a week-by-week breakdown.
 
 
 Requirements
@@ -31,8 +19,6 @@ This course is Pass/Fail. There are two levels of certification:
 * **Pass with Honors:** For students who complete all of the work on time.
 * **Pass:** For students who complete all of the work, mostly on time (more details below).
 
-Summer of Code consists of 3 units, of which _Think Python_ is the first. You will receive a status of Pass with Honors, Pass, or Fail for each unit. In order to Pass the entire course, you must Pass each individual unit. In order to Pass with Honors, you must Pass with Honors each individual unit.
-
 Evaluation
     In order to pass the course, you will be evaluated on three different criteria:
 
@@ -41,7 +27,7 @@ Evaluation
     * Final Problem Set
 
 Participation
-    Participation simply means that you are keeping up with the pace of the class and doing the required work: reading all the chapters, attempting 5 or more exercises for each chapter, attending class, and working on studios in class.
+    Participation simply means that you read all the chapters and attempt 5 or more exercises for each chapter.
 
 Weekly Graded Assignments
     As mentioned, each chapter contains a page with exercises that you should work on. Usually, one of those exercises will be specially marked as "GRADED", meaning that you must submit your code (and it must actually work, performing correctly under a set of automated tests). See below for more details on submitting assignments.
