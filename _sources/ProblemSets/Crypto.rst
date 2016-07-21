@@ -18,7 +18,7 @@ Ready? Let's do this!
 Prerequisites
 -------------
 
-Before starting work on this, you should have completed the previous section, `Local Python`_.
+Before starting work on this, you should have completed the previous section, `Using Python Locally`_.
 
 Setup
 -----
@@ -258,7 +258,9 @@ You should make use of the following functions:
 
 - Your own ``alphabet_position`` function. If feeling confused, you may want to re-read about how `Functions Can Call Other Functions`_
 
-- The ``ord`` function, which returns the ASCII value of a character, e.g. ``ord("a") == 97`` and ``ord("A") == 65``
+- The ``ord`` function, which returns the `ASCII`_ value of a character, e.g. ``ord("a") == 97`` and ``ord("A") == 65``
+
+- The ``chr`` function, which converts in the opposite direction: from an ASCII value to a single-character string, e.g. ``chr(65) == "A"`` and ``chr(97) == "a"``
 
 Test ``rotate_character`` with various input values before moving on to the next stage.
 Use more tests than the examples we provide.
@@ -419,17 +421,17 @@ Congrats! You have created two very cool encryption programs.
 Before calling this a done-deal, let's make a few improvements to the project by refactoring and adding a few new features. You will do three things:
 
 
-#. **Refactor: Shared Code**
+A. **Refactor: Shared Code**
     Do some refactoring so that you share the two helper functions between files, rather than copy and paste.
 
-#. **New Feature: Command-line Arguments**
+B. **New Feature: Command-line Arguments**
     Add a feature that improves the user experience by allowing the user to type their rotation amount as a *command-line argument* rather than waiting for a prompt. (Caesar Only)
 
-#. **New Feature: Validation**
+C. **New Feature: Validation**
     Add some validation on user input, so that if the user types something dumb, your program handles it gracefully, rather than crashing. (Caesar Only)
 
-Refactor: Shared Code
-~~~~~~~~~~~~~~~~~~~~~
+A. Refactor: Shared Code
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Remember when we said that copy / pasting those helper functions is not a smart thing to do? Now let's do something better.
 
@@ -461,8 +463,8 @@ Once you have Caesar working, do the same thing for Vigenere: simply delete the 
 
 Now your helper functions are defined only once, and your code remains nice and DRY (Don't Repeat Yourself)!
 
-New Feature: Command-line Arguments
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+B. New Feature: Command-line Arguments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Let's now make the following tweak to Caesar: instead of prompting the user for two things -- the text message and the rotation amount -- let's allow the user to include the rotation amount right away at the beginning.
 
@@ -523,8 +525,8 @@ Ok! Now you have all the tools you need to implement this feature. The ``argv`` 
 To be clear, for this assignment, we only require that you update ``caesar.py`` to take a command-line argument. You can leave your Vigenere script as is.
 
 
-New Feature: Validation
------------------------
+C. New Feature: Validation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Let's make one more improvement. You may or may not have noticed that if the user types certain things, your program will freak out.
 
@@ -607,7 +609,7 @@ Ok, go forth and validate! As with the previous feature, this is only a requirem
 Submitting Your Work
 --------------------
 
-When you have finished, there is one more step you must do, in order to accommodate the fragile, picky grading-script: please **comment out all print and input statements**. This includes not only any print statements that you might have added for debugging purposes, but **also the print and input statements you included to make your program interactive.**
+When you have finished, there is one more step you must do, in order to accommodate the fragile, picky grading-script: please comment out any ``print`` statements, ``input`` statements, and ``exit()`` commands.
 
 For example, your final, submitted ``caesar.py`` file should look something like this:
 
@@ -621,16 +623,13 @@ For example, your final, submitted ``caesar.py`` file should look something like
 
     def user_input_is_valid(cl_args):
         # (beautiful code)
+        # (there should not be any print statements in here)
 
-    # (some more code...)
+    # EVERYTHING ELSE SHOULD BE COMMENTED OUT
 
-    # NOTICE HOW I COMMENTED OUT THE LINES BELOW:
-    # message = input("Type a message:")
-    # print(encrypt(message, rotation))
+Your version may look a little different, e.g. with some components in a different order. The important thing is that the last section (basically any code that actually executes when you run the script) should be commented out. Please do not delete this code entirely, because we do want to see it with our human eyes. It's just the sensitive robot-grader who must be shielded.
 
-Your version may look a little different, e.g. with some components in a different order. The important thing is that the last two lines are commented out.
-
-Once you have commented out all print and input statements from all your files, go to Vocareum and click the assignment titled *Problem Set: Crypto*. Rather than copy and paste your work, you can upload your files directly. In your Vocareum work environment, click the Upload button, and select all 4 files:
+Once you have commented out all the side-effect-causing code from all your files, go to Vocareum and click the assignment titled *Problem Set: Crypto*. Rather than copy and paste your work, you can upload your files directly. In your Vocareum work environment, click the Upload button, and select all 4 files:
 
 - initials.py
 - casear.py
@@ -646,4 +645,5 @@ Finally, as usual, click Submit!
 .. _official documentation: https://docs.python.org/3/library/sys.html
 .. _this short video: https://www.youtube.com/watch?v=9zASwVoshiM&feature=youtu.be
 .. _Python module documentation: https://docs.python.org/3/tutorial/modules.html
-.. _Local Python: LocalPython.html
+.. _Using Python Locally: LocalPython.html
+.. _ASCII: http://www.asciitable.com
