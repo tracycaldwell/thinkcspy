@@ -55,7 +55,7 @@ is illustrated by the following simplistic code example:
 
 .. code-block:: python
 
-  def main()
+  def main():
     A()
 
   def A():
@@ -67,7 +67,7 @@ is illustrated by the following simplistic code example:
   def C():
     D()
 
-  def D()
+  def D():
     # processing
 
 Function D determines that the current processing won't work for some reason
@@ -109,7 +109,7 @@ local ``except`` block. That is, function D would handle it's own issues.
 
 .. code-block:: python
 
-  def main()
+  def main():
     A()
 
   def A():
@@ -121,7 +121,7 @@ local ``except`` block. That is, function D would handle it's own issues.
   def C():
     D()
 
-  def D()
+  def D():
     try:
       # processing code
       if something_special_happened:
@@ -134,7 +134,7 @@ the ``try: except:`` block in function C:
 
 .. code-block:: python
 
-  def main()
+  def main():
     A()
 
   def A():
@@ -149,7 +149,7 @@ the ``try: except:`` block in function C:
     except MyException:
       # execute if the MyException message happened
 
-  def D()
+  def D():
     # processing code
     if something_special_happened:
       raise MyException
@@ -159,7 +159,7 @@ could put the ``try: except:`` block in the main function:
 
 .. code-block:: python
 
-  def main()
+  def main():
     try:
       A()
     except MyException:
@@ -174,7 +174,7 @@ could put the ``try: except:`` block in the main function:
   def C():
     D()
 
-  def D()
+  def D():
     # processing code
     if something_special_happened:
       raise MyException
@@ -198,7 +198,7 @@ to deal with ``ZeroDivisonError`` messages, not ``MyException`` messages.
 
 .. code-block:: python
 
-  def main()
+  def main():
     try:
       A()
     except ZeroDivisonError:
@@ -213,7 +213,7 @@ to deal with ``ZeroDivisonError`` messages, not ``MyException`` messages.
   def C():
     D()
 
-  def D()
+  def D():
     # processing code
     if something_special_happened:
       raise MyException
