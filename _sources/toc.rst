@@ -79,10 +79,11 @@ Table of Contents
    Debugging/KnowyourerrorMessages.rst
    Debugging/StyleHighlights.rst
    Debugging/Summary.rst
+   Debugging/Glossary.rst
    Debugging/Exercises.rst
 
 
-4. Turtles
+4. Modules (and Turtles!)
 :::::::::::::::::::::::::::::::::::::
 
 .. toctree::
@@ -125,7 +126,7 @@ Table of Contents
 
    Functions/functions.rst
    Functions/Functionsthatreturnvalues.rst
-   Functions/Variablesandparametersarelocal.rst
+   Functions/Parametersandlocalvariables.rst
    Functions/TheAccumulatorPattern.rst
    Functions/Functionscancallotherfunctions.rst
    Functions/FlowofExecutionSummary.rst
@@ -162,7 +163,7 @@ Table of Contents
    Selection/Exercises.rst
 
 
-7. More About Iteration
+7. Exceptions and Problem Solving
 ::::::::::::::::::::::::::::::::::
 
 .. toctree::
@@ -174,21 +175,17 @@ Table of Contents
    :maxdepth: 1
    :numbered: 1
 
-   MoreAboutIteration/intro-IterationRevisited.rst
-   MoreAboutIteration/Theforlooprevisited.rst
-   MoreAboutIteration/ThewhileStatement.rst
-   MoreAboutIteration/RandomlyWalkingTurtles.rst
-   MoreAboutIteration/The3n1Sequence.rst
-   MoreAboutIteration/NewtonsMethod.rst
-   MoreAboutIteration/AlgorithmsRevisited.rst
-   MoreAboutIteration/SimpleTables.rst
-   MoreAboutIteration/2DimensionalIterationImageProcessing.rst
-   MoreAboutIteration/Glossary.rst
-   MoreAboutIteration/Exercises.rst
+   Exceptions/intro-Exceptions.rst
+   Exceptions/StandardExceptions.rst
+   Exceptions/PrinciplesforUsingExceptions.rst
+   Exceptions/ExceptionSyntax.rst
+   Exceptions/PrinciplesofProblemSolving.rst
+   Exceptions/DebuggingReview.rst
+   Exceptions/Exercises.rst
 
 
-8. Strings
-::::::::::::::::::::::::
+8. More About Iteration
+::::::::::::::::::::::::::::::::::
 
 .. toctree::
    :hidden:
@@ -199,20 +196,20 @@ Table of Contents
    :maxdepth: 1
    :numbered: 1
 
-   Strings/StringsRevisited.rst
-   Strings/ACollectionDataType.rst
-   Strings/OperationsonStrings.rst
-   Strings/IndexOperatorWorkingwiththeCharactersofaString.rst
-   Strings/StringMethods.rst
-   Strings/Length.rst
-   Strings/TheSliceOperator.rst
-   Strings/StringComparison.rst
-   Strings/StringsareImmutable.rst
-   Strings/Exercises.rst
+   MoreAboutIteration/intro-IterationRevisited.rst
+   MoreAboutIteration/Theforlooprevisited.rst
+   MoreAboutIteration/ThewhileStatement.rst
+   MoreAboutIteration/breakandcontinueStatements.rst
+   MoreAboutIteration/RandomlyWalkingTurtles.rst
+   MoreAboutIteration/The3n1Sequence.rst
+   MoreAboutIteration/SimpleTables.rst
+   MoreAboutIteration/2DimensionalIterationImageProcessing.rst
+   MoreAboutIteration/Glossary.rst
+   MoreAboutIteration/Exercises.rst
 
 
-9. Strings, Continued
-::::::::::::::::::::::::::::::::
+9. Strings
+::::::::::::::::::::::::
 
 .. toctree::
    :hidden:
@@ -223,18 +220,17 @@ Table of Contents
    :maxdepth: 1
    :numbered: 1
 
-   StringsContinued/TraversalandtheforLoopByItem.rst
-   StringsContinued/TraversalandtheforLoopByIndex.rst
-   StringsContinued/TraversalandthewhileLoop.rst
-   StringsContinued/Theinandnotinoperators.rst
-   StringsContinued/TheAccumulatorPatternwithStrings.rst
-   StringsContinued/Loopingandcounting.rst
-   StringsContinued/Afindfunction.rst
-   StringsContinued/Optionalparameters.rst
-   StringsContinued/Characterclassification.rst
-   StringsContinued/Summary.rst
-   StringsContinued/Glossary.rst
-   StringsContinued/Exercises.rst
+   Strings/ACollectionDataType.rst
+   Strings/OperationsonStrings.rst
+   Strings/IndexOperatorWorkingwiththeCharactersofaString.rst
+   Strings/TheSliceOperator.rst
+   Strings/StringMethods.rst
+   Strings/StringTraversal.rst
+   Strings/Loopingandcounting.rst
+   Strings/Characterclassification.rst
+   Strings/Summary.rst
+   Strings/Glossary.rst
+   Strings/Exercises.rst
 
 
 10. Lists
@@ -250,24 +246,22 @@ Table of Contents
    :numbered: 1
 
    Lists/Lists.rst
-   Lists/ListLength.rst
-   Lists/AccessingElements.rst
-   Lists/ListMembership.rst
-   Lists/ConcatenationandRepetition.rst
-   Lists/ListSlices.rst
+   Lists/ListsandStringsareSimilar.rst
    Lists/ListsareMutable.rst
-   Lists/ListDeletion.rst
+   Lists/ListMethods.rst
+   Lists/Listsandforloops.rst
+   Lists/ConcatenationandRepetition.rst
    Lists/ObjectsandReferences.rst
    Lists/Aliasing.rst
-   Lists/CloningLists.rst
    Lists/RepetitionandReferences.rst
-   Lists/ListMethods.rst
-   Lists/AppendversusConcatenate.rst
-   Lists/Listsandforloops.rst
+   Lists/UsingListsasParameters.rst
+   Lists/ListComprehensions.rst
+   Lists/splitandjoin.rst
+   Lists/Glossary.rst
    Lists/Exercises.rst
 
 
-11. Lists, Continued
+11. Dictionaries and Tuples
 ::::::::::::::::::::::::::::::
 
 .. toctree::
@@ -279,48 +273,25 @@ Table of Contents
    :maxdepth: 1
    :numbered: 1
 
-   ListsContinued/UsingListsasParameters.rst
-   ListsContinued/PureFunctions.rst
-   ListsContinued/WhichisBetter.rst
-   ListsContinued/FunctionsthatProduceLists.rst
-   ListsContinued/ListComprehensions.rst
-   ListsContinued/NestedLists.rst
-   ListsContinued/StringsandLists.rst
-   ListsContinued/listTypeConversionFunction.rst
-   ListsContinued/TuplesandMutability.rst
-   ListsContinued/TupleAssignment.rst
-   ListsContinued/TuplesasReturnValues.rst
-   ListsContinued/Glossary.rst
-   ListsContinued/Exercises.rst
-
-12. Dictionaries
-:::::::::::::::::::::::::::
-
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading12.rst
-
-.. toctree::
-   :maxdepth: 1
-   :numbered: 1
-
    Dictionaries/intro-Dictionaries.rst
    Dictionaries/Dictionaryoperations.rst
    Dictionaries/Dictionarymethods.rst
    Dictionaries/Aliasingandcopying.rst
+   Dictionaries/TuplesandMutability.rst
+   Dictionaries/TupleAssignment.rst
    Dictionaries/Sparsematrices.rst
+   Dictionaries/Enumerate.rst
    Dictionaries/Glossary.rst
    Dictionaries/Exercises.rst
 
 
-13. Classes and Objects -- Basics
+12. Classes and Objects --- Basics
 :::::::::::::::::::::::::::::::::::::::::::
 
 .. toctree::
    :hidden:
 
-   ChapterHeadings/Heading13.rst
+   ChapterHeadings/Heading12.rst
 
 .. toctree::
    :maxdepth: 1
@@ -339,13 +310,13 @@ Table of Contents
    ClassesBasics/Exercises.rst
 
 
-14. Classes and Objects -- Digging a Little Deeper
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+13. Classes and Objects --- Digging Deeper
+::::::::::::::::::::::::::::::::::::::::::::::
 
 .. toctree::
    :hidden:
 
-   ChapterHeadings/Heading14.rst
+   ChapterHeadings/Heading13.rst
 
 .. toctree::
    :maxdepth: 1
@@ -377,6 +348,7 @@ Studios
     Studios/donuts.rst
     Studios/turtle-racing.rst
     Studios/wagon-wheel.rst
+    Studios/sherlock.rst
     Studios/blurring.rst
     Studios/sorted.rst
     Studios/bugz.rst
@@ -434,19 +406,6 @@ Hacker Chapter: Recursion
    Recursion/SierpinskiTriangle.rst
    Recursion/Glossary.rst
    Recursion/ProgrammingExercises.rst
-
-
-Hacker Chapter: Exceptions
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. toctree::
-   :maxdepth: 1
-   :numbered: 1
-
-   Exceptions/01_intro_exceptions.rst
-   Exceptions/02_standard_exceptions.rst
-   Exceptions/03_principles_for_using_exceptions.rst
-   Exceptions/04_exceptions_syntax.rst
 
 
 Hacker Chapter: Special Topic -- L-Systems
