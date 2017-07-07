@@ -75,21 +75,23 @@ Exercises
 
                 A test run of this program would yield the following::
 
-                    Enter your students (or ENTER to finish)
+                    # this is the first batch of input the user would enter
                     Chris
                     Jesse
                     Sally
 
-                    Grade for Chris: 3.0
-                    Grade for Jesse: 4.0
-                    Grade for Sally: 3.5
+                    # this is the second batch of input the user would enter
+                    Grade for Chris: 90
+                    Grade for Jesse: 80
+                    Grade for Sally: 70
 
+                    # below is what your program should output
                     Class roster:
-                    Chris (3.0)
-                    Jesse (4.0)
-                    Sally (3.5)
+                    Chris (90.0)
+                    Jesse (80.0)
+                    Sally (70.0)
 
-                    Average grade: 3.5
+                    Average grade: 80.0
 
                 .. activecode:: ex_11_02
 
@@ -103,8 +105,6 @@ Exercises
 
                         # Use a space to allow for the while check below
                         new_student = " "
-
-                        print("Enter your students (or ENTER to finish):")
 
                         # Get student names
                         while (new_student != ""):
@@ -132,7 +132,7 @@ Exercises
 
     #. Implement the functionality of the above program using a dictionary instead of a list.
 
-        .. activecode:: ex_11_5
+       .. activecode:: ex_11_5
 
 
     #.
@@ -189,31 +189,31 @@ Exercises
 
     #. Here's a table of English to Pirate translations:
 
-        ==========  ==============
-        English     Pirate
-        ==========  ==============
-        sir	        matey
-        hotel	      fleabag inn
-        student	    swabbie
-        boy	        matey
-        madam	      proud beauty
-        professor	  foul blaggart
-        restaurant	  galley
-        your	        yer
-        excuse	      arr
-        students	    swabbies
-        are	        be
-        lawyer	      foul blaggart
-        restroom	    th' head
-        my	          me
-        hello	      avast
-        is	          be
-        man	        matey
-        ==========  ==============
+       ==========  ==============
+       English     Pirate
+       ==========  ==============
+       sir	        matey
+       hotel	      fleabag inn
+       student	    swabbie
+       boy	        matey
+       madam	      proud beauty
+       professor	  foul blaggart
+       restaurant	  galley
+       your	        yer
+       excuse	      arr
+       students	    swabbies
+       are	        be
+       lawyer	      foul blaggart
+       restroom	    th' head
+       my	          me
+       hello	      avast
+       is	          be
+       man	        matey
+       ==========  ==============
 
-        Write a program that asks the user for a sentence in English and then translates that sentence to Pirate.
+       Write a program that asks the user for a sentence in English and then translates that sentence to Pirate.
 
-        .. activecode:: ex_11_04
+       .. activecode:: ex_11_04
 
             from test import testEqual
 
@@ -227,66 +227,72 @@ Exercises
 
     #. Give the Python interpreter's response to each of the following from a continuous interpreter session:
 
-    	   a.
-    		  .. sourcecode:: python
+       a.
 
-    			>>> d = {'apples': 15, 'bananas': 35, 'grapes': 12}
-    			>>> d['bananas']
+           .. sourcecode:: python
 
-    	   b.
-    		  .. sourcecode:: python
+             >>> d = {'apples': 15, 'bananas': 35, 'grapes': 12}
+             >>> d['bananas']
 
-    			>>> d['oranges'] = 20
-    			>>> len(d)
+       b.
 
-    	   c.
-    		  .. sourcecode:: python
+           .. sourcecode:: python
 
-    			>>> 'grapes' in d
+             >>> d['oranges'] = 20
+             >>> len(d)
 
-    	   d.
-    		  .. sourcecode:: python
+       c.
 
-    			>>> d['pears']
+           .. sourcecode:: python
 
-    	   e.
-    		  .. sourcecode:: python
+             >>> 'grapes' in d
 
-    			>>> d.get('pears', 0)
+       d.
 
-    	   f.
-    		  .. sourcecode:: python
+           .. sourcecode:: python
 
-    			>>> fruits = d.keys()
-    			>>> sorted(fruits)
-    			>>> print(fruits)
+             >>> d['pears']
 
-    	   g.
-    		  .. sourcecode:: python
+       e.
 
-    			  >>> del d['apples']
-    			  >>> 'apples' in d
+           .. sourcecode:: python
 
+             >>> d.get('pears', 0)
 
-    	   Be sure you understand why you get each result. Then apply what you have learned to fill in the body of the function below:
+       f.
 
-    	   .. activecode:: q2_dict_answer
+           .. sourcecode:: python
 
-    		   from test import testEqual
+             >>> fruits = d.keys()
+             >>> sorted(fruits)
+             >>> print(fruits)
 
-    		   #Note: The pass is a placeholder to allow
-    		   #the code to compile. Remove it when you
-    		   #begin coding.
-    		   def set_inventory(inventory, fruit, quantity=0):
-    			     pass
+       g.
 
-    		   # make these tests work...
-    		   # new_inventory = {}
-    		   # set_inventory(new_inventory, 'strawberries', 10)
-    		   # testEqual('strawberries' in new_inventory, True)
-    		   # testEqual(new_inventory['strawberries'], 10)
-    		   # set_inventory(new_inventory, 'strawberries', 25)
-    		   # testEqual(new_inventory['strawberries'] , 25)
+           .. sourcecode:: python
+
+             >>> del d['apples']
+             >>> 'apples' in d
+
+       Be sure you understand why you get each result. Then apply what you have learned to fill in the body of the function below:
+
+       .. activecode:: q2_dict_answer
+
+           from test import testEqual
+
+           # Note: The pass is a placeholder to allow
+           # the code to compile. Remove it when you
+           # begin coding.
+           def set_inventory(inventory, fruit, quantity=0):
+               pass
+
+           # make these tests work...
+           # new_inventory = {}
+           # set_inventory(new_inventory, 'strawberries', 10)
+           # testEqual('strawberries' in new_inventory, True)
+           # testEqual(new_inventory['strawberries'], 10)
+           # set_inventory(new_inventory, 'strawberries', 25)
+           # testEqual(new_inventory['strawberries'] , 25)
 
 
 Weekly Graded Assignment
@@ -294,34 +300,48 @@ Weekly Graded Assignment
 
 .. container:: full_width
 
-    Write an ``add_contact`` function that modifies a dictionary of contacts. The ``contacts`` dictionary has the contact name as its key, and the value is a tuple containing the phone number and email for the contact.::
+    Write a ``sort_contacts`` function that takes a *dictionary* of contacts as a parameter and returns a *sorted list* of those contacts, where each contact is a *tuple*.
+
+    The contacts dictionary that will be passed into the function has the contact name as its key, and the value is a tuple containing the phone number and email for the contact. ::
 
         contacts = {name: (phone, email), name: (phone, email), etc.}
 
-    The ``add_contact`` function should do the following:
+    The ``sort_contacts`` function should then create a new, sorted (by last name) list of tuples representing all of the contact info (one tuple for each contact) that was in the dictionary. It should then return this list to the calling function.
 
-    1. Take the following three parameters: the contact dictionary to be updated, a string of the contact's name, and the tuple containing the contact's phone and email.
-    2. Update the dictionary by adding this new contact to it.
-    3. Create a new, **sorted** list of tuples representing *all* of the contact info (one tuple for each contact).
-    4. Return this list to the calling function.
+    For example, given a dictionary argument of: ::
 
-    For example, after filling in your code for the ``add_contact`` function, running the program below should print the following::
+        {"Horney, Karen": ("1-541-656-3010", "karen@psychoanalysis.com"),
+        "Welles, Orson": ("1-312-720-8888", "orson@notlive.com"),
+        "Freud, Anna": ("1-541-754-3010", "anna@psychoanalysis.com")}
 
-    [('Almodovar, Pedro', '1-990-622-3892', 'pedro@filmbuffs.com'), ('Freud, Anna', '1-541-754-3010', 'anna@psychoanalysis.com'), ('Rimbaud, Arthur', '1-636-555-5555', 'arthur@notlive.com'), ('Swinton, Tilda', '1-917-222-2222', 'tilda@greatActors.com')]
+    ``sort_contacts`` should return this: ::
 
-    .. activecode:: add_contact_assign
+        [('Freud, Anna', '1-541-754-3010', 'anna@psychoanalysis.com'), ('Horney, Karen', '1-541-656-3010', 'karen@psychoanalysis.com'), ('Welles, Orson', '1-312-720-8888', 'orson@notlive.com')]
 
-        # Create add_contact function
+    .. activecode:: sort_contacts_assign
+
+        # Create sort_contacts function
 
 
-        # The below is just for your testing purposes.
-        # In Vocareum, only put code for the function above
-        def main():
-            contact_dict = {"Rimbaud, Arthur": ("1-636-555-5555", "arthur@notlive.com"),
-                "Swinton, Tilda": ("1-917-222-2222", "tilda@greatActors.com"),
-                "Almodovar, Pedro": ("1-990-622-3892", "pedro@filmbuffs.com")}
-            print(add_contact(contact_dict, "Freud, Anna",
-                ("1-541-754-3010", "anna@psychoanalysis.com")))
+        # The code below is just for your testing purposes. Make sure you pass all the tests.
+        # In Vocareum, only put code for the sort_contacts function above
+        from test import testEqual
 
-        if __name__ == "__main__":
-            main()
+        testEqual(sort_contacts({"Horney, Karen": ("1-541-656-3010", "karen@psychoanalysis.com"),
+                "Welles, Orson": ("1-312-720-8888", "orson@notlive.com"),
+                "Freud, Anna": ("1-541-754-3010", "anna@psychoanalysis.com")}), [('Freud, Anna', '1-541-754-3010',
+                'anna@psychoanalysis.com'), ('Horney, Karen', '1-541-656-3010', 'karen@psychoanalysis.com'),
+                ('Welles, Orson', '1-312-720-8888', 'orson@notlive.com')])
+        testEqual(sort_contacts({"Summitt, Pat": ("1-865-355-4320", "pat@greatcoaches.com"),
+            "Rudolph, Wilma": ("1-410-5313-584", "wilma@olympians.com")}),
+            [('Rudolph, Wilma', '1-410-5313-584', 'wilma@olympians.com'),
+            ('Summitt, Pat', '1-865-355-4320', 'pat@greatcoaches.com')])
+        testEqual(sort_contacts({"Dinesen, Isak": ("1-718-939-2548", "isak@storytellers.com")}),
+            [('Dinesen, Isak', '1-718-939-2548', 'isak@storytellers.com')])
+        testEqual(sort_contacts({"Rimbaud, Arthur": ("1-636-555-5555", "arthur@notlive.com"),
+            "Swinton, Tilda": ("1-917-222-2222", "tilda@greatActors.com"),
+            "Almodovar, Pedro": ("1-990-622-3892", "pedro@filmbuffs.com"), "Kandinsky, Wassily":
+            ("1-333-555-9999", "kandinsky@painters.com")}), [('Almodovar, Pedro', '1-990-622-3892',
+            'pedro@filmbuffs.com'), ('Kandinsky, Wassily', '1-333-555-9999', 'kandinsky@painters.com'),
+            ('Rimbaud, Arthur', '1-636-555-5555', 'arthur@notlive.com'), ('Swinton, Tilda',
+            '1-917-222-2222', 'tilda@greatActors.com')])
