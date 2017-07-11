@@ -1,4 +1,4 @@
-Lists, Continued
+Dictionaries and Tuples
 ++++++++++++++++++++++++++
 
 .. image:: images/ch11.jpg

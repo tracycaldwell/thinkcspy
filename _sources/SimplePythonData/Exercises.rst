@@ -19,8 +19,7 @@ Exercises
 
             .. tab:: Question
 
-                Evaluate the following numerical expressions in your head, then use
-                the active code window to check your results:
+                Evaluate the following numerical expressions in your head, then use the active code window to check your results:
 
                 #. ``5 ** 2``
                 #. ``9 * 5``
@@ -106,9 +105,7 @@ Exercises
 
             .. tab:: Question
 
-                Take the sentence: *All work and no play makes Jack a dull boy.*
-                Store each word in a separate variable, then print out the sentence on
-                one line using ``print``.
+                Take the sentence: *All work and no play makes Jack a dull boy.* Store each word in a separate variable, then print out the sentence on one line using ``print``.
 
                 .. activecode:: ex_2_5
 
@@ -119,24 +116,23 @@ Exercises
 
                     ## question 5 solution ##
 
-                    word1 = "All"
-                    word2 = "work"
-                    word3 = "and"
-                    word4 = "no"
-                    word5 = "play"
-                    word6 = "makes"
-                    word7 = "Jack"
-                    word8 = "a"
-                    word9 = "dull"
-                    word10 = "boy."
+                    word_1 = "All"
+                    word_2 = "work"
+                    word_3 = "and"
+                    word_4 = "no"
+                    word_5 = "play"
+                    word_6 = "makes"
+                    word_7 = "Jack"
+                    word_8 = "a"
+                    word_9 = "dull"
+                    word_10 = "boy."
 
-                    print(word1, word2, word3, word4, word5, word6, word7, word8, word9, word10)
+                    print(word_1, word_2, word_3, word_4, word_5, word_6, word_7, word_8, word_9, word_10)
 
 
     #.
 
-        Add parenthesis to the expression ``6 * 1 - 2`` to change its value
-        from 4 to -6.
+        Add parenthesis to the expression ``6 * 1 - 2`` to change its value from 4 to -6.
 
         .. activecode:: ex_2_6
 
@@ -147,17 +143,12 @@ Exercises
 
             .. tab:: Question
 
-                The formula for computing the final amount if one is earning
-                compound interest is given on Wikipedia as
+                The formula for computing the final amount if one is earning compound interest is given on Wikipedia as
 
                 .. image:: Figures/compoundInterest.png
                     :alt: formula for compound interest
 
-                Write a Python program that assigns the principal amount of 10000 to
-                variable `P`, assign to `n` the value 12, and assign to `r` the interest
-                rate of 8% (0.08).  Then have the program prompt the user for the number of years,
-                `t`, that the money will be compounded for. Calculate and print the final
-                amount after `t` years.
+                Write a Python program that assigns the principal amount of 10000 to variable `P`, assign to `n` the value 12, and assign to `r` the interest rate of 8% (0.08).  Then have the program prompt the user for the number of years, `t`, that the money will be compounded for. Calculate and print the final amount after `t` years.
 
                 .. activecode:: ex_2_7
 
@@ -198,8 +189,7 @@ Exercises
 
             .. tab:: Question
 
-                Write a program that will compute the area of a rectangle. Prompt the user to enter the width and height of the rectangle.
-                Print a nice message with the answer.
+                Write a program that will compute the area of a rectangle. Prompt the user to enter the width and height of the rectangle. Print a nice message with the answer.
 
                 .. activecode:: ex_2_9
 
@@ -239,7 +229,7 @@ Exercises
 
             .. tab:: Question
 
-                Write a program that will convert degrees celsius to degrees fahrenheit.
+                Write a program that will convert degrees Celsius to degrees Fahrenheit.
 
                 .. activecode:: ex_2_11
 
@@ -252,16 +242,16 @@ Exercises
 
                     deg_c = int(input("What is the temperature in Celsius? "))
 
-                    # formula to convert C to F is: (degrees Celcius) times (9/5) plus (32)
+                    # formula to convert C to F is: (degrees Celsius) times (9/5) plus (32)
                     deg_f = deg_c * (9 / 5) + 32
 
-                    print(deg_c, " degrees Celsius is", deg_f, " degrees Farenheit.")
+                    print(deg_c, " degrees Celsius is", deg_f, " degrees Fahrenheit.")
 
 
 
     #.
 
-        Write a program that will convert degrees fahrenheit to degrees celsius, like this:
+        Write a program that will convert degrees Fahrenheit to degrees Celsius, like this:
 
         ::
 

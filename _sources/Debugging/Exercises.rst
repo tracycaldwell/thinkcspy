@@ -24,13 +24,13 @@ Exercises
 
            What type of error did the above program have?
 
-    #.  Picture a compass where north represents 0 degrees, east represents, 90 degrees, and so on, all the way around to 360 degrees, which is again the same as 0 degrees: true north.
+    #.  Picture a compass where 0 degrees represents North, 90 degrees represents East, and so on, all the way around to 360 degrees, which is again the same as 0 degrees: true north.
 
-        The program below envisions the scenario in which a person is facing north (aka 0 degrees) and spins some number of rotations, either clockwise or counter-clockwise (-1 represents a full counter-clockwise spin, 1 a full clockwise spin). It calculates the direction they end up facing in degrees. However, it doesn't work properly. Find and fix the error in the program.
+        The program below envisions the scenario in which a person is facing North (aka 0 degrees) and spins some number of rotations, either clockwise or counter-clockwise (-1 represents a full counter-clockwise spin and 1 represents a full clockwise spin). It calculates the direction they end up facing in degrees. However, it doesn't work properly. Find and fix the error in the program.
 
         .. activecode:: lc_ex_1_2
 
-            spins = input("How many times did you spin? (Enter a negative number for couter-clockwise spins) ")
+            spins = input("How many times did you spin? (Enter a negative number for counter-clockwise spins) ")
 
             degrees = float(spins) * 360
 
@@ -48,15 +48,15 @@ Exercises
 
            What type of error did the above program have?
 
-    #.  You've written a program to convert degrees celsius to degrees fahrenheit. The program below makes the conversion in the opposite direction, from fahrenheit to celsius. However, it doesn't work properly. Find and fix the error in the program.
+    #.  You've written a program to convert degrees Celsius to degrees Fahrenheit. The program below makes the conversion in the opposite direction, from Fahrenheit to Celsius. However, it doesn't work properly. Find and fix the error in the program.
 
         .. activecode:: lc_ex_1_3
 
-            currentTemp_string = input("Enter a temperature in degrees fahrenheit: ")
-            currentTemp = int(currentTemp_string)
+            current_temp_string = input("Enter a temperature in degrees Fahrenheit: ")
+            current_temp = int(current_temp_string)
 
-            currentTmpCelsius = (currentTmp - 32) * (5/9)
-            print("The temperature in Celsius is:", currentTmpCelsius)
+            current_temp_celsius = (current_tmp - 32) * (5/9)
+            print("The temperature in Celsius is:", current_temp_celsius)
 
         .. mchoice:: lc_question1_1_3
            :answer_a: Syntax error
@@ -69,9 +69,9 @@ Exercises
 
            What type of error did the above program have?
 
-    #.  **Football Scores** Suppose you've written the program below. The given program asks the user to input the number of touchdowns and field goals scored by a (American) football team, and prints out the team's score. (We assume that for each touchdown, the team always makes the extra point.)
+    #.  **Football Scores** Suppose you've written the program below. The given program asks the user to input the number of touchdowns and field goals scored by an American football team, and prints out the team's score. (We generously assume that for each touchdown, the team always makes the extra point.)
 
-        The European Union has decided that they want to start an American football league, and they want to use your killer program to calculate scores, but they like things that are multiples of 10 (e.g. the Metric System), and have decided that touchdowns will be worth 10 points and field goals are worth 5 points. Modify the program below to work on both continents, and beyond. It should ask the user how many points a touchdown is worth and how many points a field goal is worth. Then it should ask for the number of each touchdowns / field goals scored, and print the team's total score.
+        The European Union has decided that they want to start an American football league, and they want to use your killer program to calculate scores, but they like things that are multiples of 10 (e.g. the Metric System), and have decided that touchdowns will be worth 10 points (including the extra point they might score) and field goals are worth 5 points. Modify the program below to work on both continents, and beyond. It should ask the user how many points a touchdown is worth and how many points a field goal is worth. Then it should ask in turn for both the number of touchdowns and the number of field goals scored, and then print the team's total score.
 
         .. activecode:: lc_ex_1_4
 
@@ -91,7 +91,7 @@ Weekly Graded Assignment
 
     You have a thermostat that allows you to set the room to any temperature between 40 and 89 degrees.
 
-    The thermostat can be adjusted by turning a circular dial. If you turn the dial all the way to the left, you will set the temperature to 40 degrees. If you turn to the right by one click, you will get 41 degrees. As you continue to turn to the right, the temperature goes up, and the temperature gets closer and closer to 89 degrees. But as soon as you complete one full rotation (50 clicks), the temperature cycles back around to 40 and starts over.
+    The thermostat can be adjusted by turning a circular dial. For instance, if the temperature is set to 50 degrees and you turn the dial 10 clicks toward the left, you will set the temperature to 40 degrees. But if you keep turning 1 click to the left it will circle back around to 89 degrees. If you are at 40 degrees and turn to the right by one click, you will get 41 degrees. As you continue to turn to the right, the temperature goes up, and the temperature gets closer and closer to 89 degrees. But as soon as you complete one full rotation (50 clicks), the temperature cycles back around to 40 degrees.
 
     Write a program that calculates the temperature based on how much the dial has been turned. You should prompt the user for a number of clicks-to-the-right (from the starting point of 40 degrees). Then you should print the current temperature.
 

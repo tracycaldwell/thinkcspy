@@ -67,8 +67,8 @@ Exercises
                 .. activecode:: q3_answer
 
 
-                    for amonth in ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'November', 'December']:
-                        print("One of the months of the year is", amonth)
+                    for month in ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'November', 'December']:
+                        print("One of the months of the year is", month)
 
 
     #.
@@ -328,24 +328,24 @@ Exercises
 
     #.
 
-        .. tabbed:: q1
+        .. tabbed:: q14
 
             .. tab:: Question
 
                Use a ``for`` statement to print 10 random numbers.
 
-               .. activecode:: ex_mod_1
+               .. activecode:: ex_3_14
 
             .. tab:: Answer
 
-                .. activecode:: mod_q1_answer
+                .. activecode:: q14_answer
+                  :nocodelens:
 
-                   import random
+                  import random
 
-                   howmany = 10
-                   for counter in range(howmany):
-                       arandom = random.random()
-                       print(arandom)
+                  for i in range(10):
+                      num = random.randrange(1, 200)
+                      print(num)
 
 
     #.
@@ -356,17 +356,17 @@ Exercises
 
     #.
 
-        .. tabbed:: q3
+        .. tabbed:: q16
 
             .. tab:: Question
 
                The **Pythagorean Theorem** tells us that the length of the hypotenuse of a right triangle is related to the lengths of the other two sides. Look through the ``math`` module and see if you can find a function that will compute this relationship for you. Once you find it, write a short program to try it out.
 
-                       .. activecode:: ex_mod_3
+                       .. activecode:: ex_3_16
 
             .. tab:: Answer
 
-                .. activecode:: mod_q3_answer
+                .. activecode:: q16_answer
 
                    import math
 
@@ -396,7 +396,7 @@ Weekly Graded Assignment
         ...etc
 
 
-    b. Write a second loop that prints each number and its square on a new line, like this: ::
+    b. Write a second loop that prints each number and its square on a new line, precisely like this: ::
 
         The square of 12 is 144
         The square of 10 is 100
