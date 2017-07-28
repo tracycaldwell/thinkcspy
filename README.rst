@@ -1,3 +1,6 @@
+.. image:: https://travis-ci.org/bgschiller/thinkcspy.svg?branch=master
+    :target: https://travis-ci.org/bgschiller/thinkcspy
+
 How to Think Like a Computer Scientist: Interactive Edition
 ===========================================================
 
@@ -19,7 +22,7 @@ works..
 Getting Started
 ===============
 
-We have tried to make it as easy as possible for you to build and use this book.  
+We have tried to make it as easy as possible for you to build and use this book.
 
 1. You can see and read this book online at `interactivepython.org <http://interactivepython.org/runestone/static/thinkcspy/index.html>`_
 
@@ -28,5 +31,3 @@ We have tried to make it as easy as possible for you to build and use this book.
     1.  ``pip install -r requirements.txt``  -- Should install everything you need
     2.  ``runestone build`` -- will build the html and put it in ``./build/thinkcspy``
     3.  ``runestone serve``   -- will start a webserver and serve the pages locally from ``./build/thinkcspy``
-
-
