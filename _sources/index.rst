@@ -1,295 +1,436 @@
-Think Python - LaunchCode Edition
+Think Python - Devetry Edition
 =============================================
 
-Welcome to LaunchCode's *Think Python* course!
+Welcome to Devetry's *Think Python* course!
 
-* :ref:`t_o_c`
 * `Index <genindex.html>`_
 
-.. activecode:: welcome
-    :above:
-    :autorun:
-    :hidecode:
-    :nocodelens:
-
-    __author__ = "Jack Burns"
-    __version__ = "1.0"
+.. _t_o_c:
+
+Table of Contents
+------------------
+
+1. General Intro
+::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   GeneralIntro/intro-TheWayoftheProgram.rst
+   GeneralIntro/Algorithms.rst
+   GeneralIntro/ThePythonProgrammingLanguage.rst
+   GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst
+   GeneralIntro/MoreAboutPrograms.rst
+   GeneralIntro/ATypicalFirstProgram.rst
+   GeneralIntro/Comments.rst
+   GeneralIntro/Glossary.rst
+
+
+2. Simple Python Data
+:::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Heading2.rst
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   SimplePythonData/ValuesandDataTypes.rst
+   SimplePythonData/Typeconversionfunctions.rst
+   SimplePythonData/Variables.rst
+   SimplePythonData/VariableNamesandKeywords.rst
+   SimplePythonData/StatementsandExpressions.rst
+   SimplePythonData/OperatorsandOperands.rst
+   SimplePythonData/Input.rst
+   SimplePythonData/OrderofOperations.rst
+   SimplePythonData/Reassignment.rst
+   SimplePythonData/UpdatingVariables.rst
+   SimplePythonData/Glossary.rst
+   SimplePythonData/Exercises.rst
+
+
+3. Debugging
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Heading3.rst
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   Debugging/WhatisDebugging.rst
+   Debugging/Syntaxerrors.rst
+   Debugging/RuntimeErrors.rst
+   Debugging/SemanticErrors.rst
+   Debugging/ExperimentalDebugging.rst
+   Debugging/intro-HowtobeaSuccessfulProgrammer.rst
+   Debugging/HowtoAvoidDebugging.rst
+   Debugging/BeginningtipsforDebugging.rst
+   Debugging/KnowyourerrorMessages.rst
+   Debugging/StyleHighlights.rst
+   Debugging/Summary.rst
+   Debugging/Glossary.rst
+   Debugging/Exercises.rst
+
+
+4. Modules (and Turtles!)
+:::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Heading4.rst
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   PythonTurtle/intro-HelloLittleTurtles.rst
+   PythonTurtle/OurFirstTurtleProgram.rst
+   PythonTurtle/InstancesAHerdofTurtles.rst
+   PythonTurtle/TheforLoop.rst
+   PythonTurtle/FlowofExecutionoftheforLoop.rst
+   PythonTurtle/IterationSimplifiesourTurtleProgram.rst
+   PythonTurtle/TherangeType.rst
+   PythonTurtle/AFewMoreturtleMethodsandObservations.rst
+   PythonTurtle/SummaryofTurtleMethods.rst
+   PythonTurtle/modules.rst
+   PythonTurtle/MoreAboutUsingModules.rst
+   PythonTurtle/Themathmodule.rst
+   PythonTurtle/Therandommodule.rst
+   PythonTurtle/Glossary.rst
+   PythonTurtle/Exercises.rst
 
-    # import lines
-    import turtle
-    import random
-
-    #final variables
-    PXCORD = 58.4743409445
-    NXCORD = -58.4743409445
-    YCORD = -33.7390488074
-    PANGLE = 17
-    NANGLE = -17
-    PCURVE = 0.8
-    NCURVE = -0.8
-    RANGE = 62
-    DIST = 2.3
-    COLOR = 'white'
-    BGCOLOR = (72, 61, 139)
-    INIT_LENGTH = 200
-    CIRCLE_CORDS = (10.66, -30)
-    RADIUS = 19
-
-    # main def
-    def main():
-
-        #print the message
-        print_message()
-
-        # make the turtle screen
-        wn = turtle.Screen()
-        wn.setup(575, 800)
-
-        #change the background color
-        wn.bgcolor(BGCOLOR)
-
-        # create a new turtle object
-        boxy = turtle.Turtle()
-        boxy.speed(8)
-
-        # new turtle for draw init
-        nt1 = turtle.Turtle()
-        nt1.speed(10)
-
-        # new turtle for the flame
-        flame = turtle.Turtle()
-        flame.speed(10)
-
-        # call the draw_init method
-        draw_init(nt1)
-
-        # call the draw_flame method
-        draw_flame(flame)
-
-        # call the second main method
-        main2(wn, boxy)
-
-        # this is for testing purposes, will be taken out in live version
-        wn.exitonclick()
-
-    #draws the porthole window
-    def draw_circle(turtle):
-
-        #make the fill and change the starting position of the turtle
-        turtle.penup()
-        turtle.setposition(CIRCLE_CORDS)
-        turtle.pendown()
-
-        turtle.begin_fill()
-        turtle.fillcolor('yellow')
-
-        #draw the circle
-        turtle.circle(RADIUS)
-        turtle.end_fill()
-
-
-    # draw the curve on the top of the rocket
-    def draw_curve(turtle, angle, dist):
-
-        #create a loop for the curve
-        for i in range(RANGE):
-
-            turtle.forward(dist)
-            turtle.right(angle)
-
-    # draw_init draw the initial outline
-    def draw_init(nt1):
-
-        nt1.pencolor(COLOR)
-        nt1.width(12)
-        nt1.penup()
-        nt1.setposition(0, -225)
-        nt1.setheading(90)
-        nt1.pendown()
-
-        # begin drawing
-        nt1.right(PANGLE)
-        nt1.forward(INIT_LENGTH)
 
-        # print the cords for testing
-        # print((str)(nt1.xcor()) + ", " + (str)(nt1.ycor()))
-
-        #draw the right fin
-        nt1.setheading(0)
-        nt1.right(55)
-        nt1.forward(45)
-        nt1.right(55)
-        nt1.forward(80)
-        nt1.right(130)
-        nt1.forward(40)
+5. Functions
+:::::::::::::::::::::::
 
-        nt1.penup()
-        nt1.setposition(PXCORD, YCORD)
-        nt1.setheading(90)
-        nt1.pendown()
-        draw_curve(nt1, NCURVE, DIST)
-
-        # draw the other half of the flame
-        nt1.penup()
-        nt1.setposition(0, -225)
-        nt1.setheading(90)
-        nt1.pendown()
-
-        # begin drawing
-        nt1.right(NANGLE)
-        nt1.forward(INIT_LENGTH)
-
-        # print the cords for testing
-        # print((str)(nt1.xcor()) + ", " + (str)(nt1.ycor()))
-
-        #draw the left fin
-        nt1.setheading(180)
-        nt1.left(55)
-        nt1.forward(45)
-        nt1.left(55)
-        nt1.forward(80)
-        nt1.left(130)
-        nt1.forward(40)
-
-        # draw the left curve
-        nt1.penup()
-        nt1.setposition(NXCORD, YCORD)
-        nt1.setheading(90)
-        nt1.pendown()
-
-        #draw the curves
-        draw_curve(nt1, PCURVE, DIST)
-
-        #draw the circle
-        draw_circle(nt1)
-
-        nt1.hideturtle()
-
-
-
-    # draw_flame
-    def draw_flame(flame):
-
-        # specify color and width
-        flame.pencolor(COLOR)
-        flame.width(12)
-
-        # set the position
-        flame.penup()
-        flame.setposition(-35, -115)
-        flame.pendown()
-
-        # begin the fill and set the fill color
-        flame.begin_fill()
-        flame.fillcolor(COLOR)
-
-        flame.forward(65)
-
-        flame.width(1)
-        flame.setheading(270)
-        flame.penup()
-        flame.setposition(15, -115)
-        flame.pendown()
-
-        # start drawing half of the flame
-        flame.right(17.5)
-        flame.forward(50)
-
-        flame.penup()
-        flame.setposition(-15, -115)
-        flame.setheading(270)
-        flame.pendown()
-        flame.end_fill()
-
-        # start drawing half of the flame
-        flame.right(-17.5)
-        flame.forward(50)
-        flame.penup()
-
-        flame.hideturtle()
-
-    def main2(tscreen, boxy):
-
-        #pick the starting position for boxy
-        boxy.penup()
-        boxy.setposition(-150, 275)
-        boxy.pendown()
-
-        # set the pen colors
-        boxy.color('yellow', (238, 232, 170))
-        boxy.begin_fill()
-
-        #loop the same drawing all the way around
-        for i in range(180 + 1):
-
-            #shape of the line
-            boxy.forward(50)
-            boxy.right(30)
-            boxy.forward(20)
-            boxy.left(60)
-            boxy.forward(50)
-            boxy.right(30)
-
-            #back to the center
-            boxy.penup()
-            boxy.setposition(-150, 275)
-            boxy.pendown()
-
-            #shift angle to the right and throw a tracer to slow the process down
-            boxy.right(2)
-            tscreen.tracer(25,0)
-
-        #fills boxy
-        boxy.end_fill()
-
-        #create a new turtle
-        nt = turtle.Turtle()
-        nt.hideturtle()
-        nt.speed(5)
-
-        #draw some stars
-        draw_star(nt, random.randrange(8, 20), (random.randrange(256), random.randrange(256), random.randrange(256)), 100, 200)
-        draw_star(nt, random.randrange(8, 20), (random.randrange(256), random.randrange(256), random.randrange(256)), 175, 300)
-        draw_star(nt, random.randrange(8, 20), (random.randrange(256), random.randrange(256), random.randrange(256)), -125, 100)
-        draw_star(nt, random.randrange(8, 20), (random.randrange(256), random.randrange(256), random.randrange(256)), -200, -100)
-        draw_star(nt, random.randrange(8, 20), (random.randrange(256), random.randrange(256), random.randrange(256)), -180, -175)
-        draw_star(nt, random.randrange(8, 20), (random.randrange(256), random.randrange(256), random.randrange(256)), -210, -300)
-        draw_star(nt, random.randrange(8, 20), (random.randrange(256), random.randrange(256), random.randrange(256)), 150, -200)
-        draw_star(nt, random.randrange(8, 20), (random.randrange(256), random.randrange(256), random.randrange(256)), 0, -325)
-        draw_star(nt, random.randrange(8, 20), (random.randrange(256), random.randrange(256), random.randrange(256)), 225, -325)
-        draw_star(nt, random.randrange(8, 20), (random.randrange(256), random.randrange(256), random.randrange(256)), 235, 50)
-        draw_star(nt, random.randrange(8, 20), (random.randrange(256), random.randrange(256), random.randrange(256)), -200, 50)
-        draw_star(nt, random.randrange(8, 20), (random.randrange(256), random.randrange(256), random.randrange(256)), 250, -150)
-
-        # change the color for text
-        boxy.pencolor(255, 215, 0)
-        boxy.hideturtle()
-
-    #draw_star method
-    def draw_star(turtle, size, color, xcoord, ycoord):
-
-        #pick up the pen and place it
-        turtle.penup()
-        turtle.setposition(xcoord, ycoord)
-        turtle.pendown()
-
-        #start the drawing
-        angle = 120
-        turtle.fillcolor(color)
-        turtle.begin_fill()
-
-        for side in range(5):
-            turtle.forward(size)
-            turtle.right(angle)
-            turtle.forward(size)
-            turtle.right(72 - angle)
-
-        turtle.end_fill()
-
-    def print_message():
-
-        #print some lines to the console
-        print("Welcome to:\nLaunchCode's Think Python")
-
-    # execute main method
-    main()
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Heading5.rst
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   Functions/functions.rst
+   Functions/Functionsthatreturnvalues.rst
+   Functions/Parametersandlocalvariables.rst
+   Functions/TheAccumulatorPattern.rst
+   Functions/Functionscancallotherfunctions.rst
+   Functions/FlowofExecutionSummary.rst
+   Functions/mainfunction.rst
+   Functions/ProgramDevelopment.rst
+   Functions/Composition.rst
+   Functions/ATurtleBarChart.rst
+   Functions/ProgrammingWithStyle.rst
+   Functions/Glossary.rst
+   Functions/Exercises.rst
+
+
+6. Selection
+:::::::::::::::::::::::
+
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Heading6.rst
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   Selection/BooleanValuesandBooleanExpressions.rst
+   Selection/Logicaloperators.rst
+   Selection/PrecedenceofOperators.rst
+   Selection/ConditionalExecutionBinarySelection.rst
+   Selection/OmittingtheelseClauseUnarySelection.rst
+   Selection/Nestedconditionals.rst
+   Selection/Chainedconditionals.rst
+   Selection/BooleanFunctions.rst
+   Selection/Glossary.rst
+   Selection/Exercises.rst
+
+
+7. Exceptions and Problem Solving
+::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Heading7.rst
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   Exceptions/intro-Exceptions.rst
+   Exceptions/StandardExceptions.rst
+   Exceptions/PrinciplesforUsingExceptions.rst
+   Exceptions/ExceptionSyntax.rst
+   Exceptions/PrinciplesofProblemSolving.rst
+   Exceptions/DebuggingReview.rst
+   Exceptions/Exercises.rst
+
+
+8. More About Iteration
+::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Heading8.rst
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   MoreAboutIteration/intro-IterationRevisited.rst
+   MoreAboutIteration/Theforlooprevisited.rst
+   MoreAboutIteration/ThewhileStatement.rst
+   MoreAboutIteration/breakandcontinueStatements.rst
+   MoreAboutIteration/RandomlyWalkingTurtles.rst
+   MoreAboutIteration/ChoosingWhichLoopToUse.rst
+   MoreAboutIteration/SimpleTables.rst
+   MoreAboutIteration/2DimensionalIterationImageProcessing.rst
+   MoreAboutIteration/Glossary.rst
+   MoreAboutIteration/Exercises.rst
+
+
+9. Strings
+::::::::::::::::::::::::
+
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Heading9.rst
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   Strings/ACollectionDataType.rst
+   Strings/OperationsonStrings.rst
+   Strings/IndexOperatorWorkingwiththeCharactersofaString.rst
+   Strings/TheSliceOperator.rst
+   Strings/StringMethods.rst
+   Strings/StringTraversal.rst
+   Strings/Loopingandcounting.rst
+   Strings/Characterclassification.rst
+   Strings/Summary.rst
+   Strings/Glossary.rst
+   Strings/Exercises.rst
+
+
+10. Lists
+::::::::::::::::::::
+
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Heading10.rst
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   Lists/Lists.rst
+   Lists/ListsandStringsareSimilar.rst
+   Lists/ListsareMutable.rst
+   Lists/ListMethods.rst
+   Lists/Listsandforloops.rst
+   Lists/ConcatenationandRepetition.rst
+   Lists/ObjectsandReferences.rst
+   Lists/Aliasing.rst
+   Lists/RepetitionandReferences.rst
+   Lists/UsingListsasParameters.rst
+   Lists/ListComprehensions.rst
+   Lists/splitandjoin.rst
+   Lists/Glossary.rst
+   Lists/Exercises.rst
+
+
+11. Dictionaries and Tuples
+::::::::::::::::::::::::::::::
+
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Heading11.rst
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   Dictionaries/intro-Dictionaries.rst
+   Dictionaries/Dictionaryoperations.rst
+   Dictionaries/Dictionarymethods.rst
+   Dictionaries/Aliasingandcopying.rst
+   Dictionaries/TuplesandMutability.rst
+   Dictionaries/TupleAssignment.rst
+   Dictionaries/Sparsematrices.rst
+   Dictionaries/Enumerate.rst
+   Dictionaries/Glossary.rst
+   Dictionaries/Exercises.rst
+
+
+12. Classes and Objects --- Basics
+:::::::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Heading12.rst
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   ClassesBasics/Objectorientedprogramming.rst
+   ClassesBasics/Achangeofperspective.rst
+   ClassesBasics/ObjectsRevisited.rst
+   ClassesBasics/UserDefinedClasses.rst
+   ClassesBasics/ImprovingourConstructor.rst
+   ClassesBasics/AddingOtherMethodstoourClass.rst
+   ClassesBasics/ObjectsasArgumentsandParameters.rst
+   ClassesBasics/ConvertinganObjecttoaString.rst
+   ClassesBasics/InstancesasReturnValues.rst
+   ClassesBasics/Glossary.rst
+   ClassesBasics/Exercises.rst
+
+
+13. Classes and Objects --- Digging Deeper
+::::::::::::::::::::::::::::::::::::::::::::::
+
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Heading13.rst
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   ClassesDiggingDeeper/Fractions.rst
+   ClassesDiggingDeeper/ObjectsareMutable.rst
+   ClassesDiggingDeeper/Sameness.rst
+   ClassesDiggingDeeper/ArithmeticMethods.rst
+   ClassesDiggingDeeper/Inheritance.rst
+   ClassesDiggingDeeper/Glossary.rst
+   ClassesDiggingDeeper/Exercises.rst
+
+
+
+Studios
+:::::::
+
+.. toctree::
+   :hidden:
+
+   ChapterHeadings/Studios.rst
+
+.. toctree::
+    :maxdepth: 1
+    :numbered: 1
+
+    Studios/holiday.rst
+    Studios/donuts.rst
+    Studios/turtle-racing.rst
+    Studios/wagon-wheel.rst
+    Studios/sherlock.rst
+    Studios/blurring.rst
+    Studios/sorted.rst
+    Studios/bugz.rst
+    Studios/bubble-sort.rst
+    Studios/yahtzee.rst
+    Studios/counting-characters.rst
+    Studios/class-design.rst
+    Studios/blog-design.rst
+
+
+External Assignments
+::::::::::::::::::::::
+
+.. toctree::
+    :maxdepth: 1
+    :numbered: 1
+
+    ProblemSets/Initials.rst
+    ProblemSets/Crypto.rst
+
+----
+
+Optional Chapters
+::::::::::::::::::
+
+Hacker Chapter: Files
+~~~~~~~~~~~~~~~~~~~~~
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   Files/intro-WorkingwithDataFiles.rst
+   Files/FindingaFileonyourDisk.rst
+   Files/ReadingaFile.rst
+   Files/Iteratingoverlinesinafile.rst
+   Files/AlternativeFileReadingMethods.rst
+   Files/WritingTextFiles.rst
+   Files/Glossary.rst
+   Files/Exercises.rst
+
+
+Hacker Chapter: Recursion
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   Recursion/WhatIsRecursion.rst
+   Recursion/CalculatingtheSumofaListofNumbers.rst
+   Recursion/TheThreeLawsofRecursion.rst
+   Recursion/ConvertinganIntegertoaStringinAnyBase.rst
+   Recursion/intro-VisualizingRecursion.rst
+   Recursion/SierpinskiTriangle.rst
+   Recursion/Glossary.rst
+   Recursion/ProgrammingExercises.rst
+
+
+Hacker Chapter: Special Topic -- L-Systems
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 1
+
+   LSystems/TurtlesandStringsandLSystems.rst
+   LSystems/TheReturnofLSystems.rst
+   LSystems/Exercises.rst
+
+----
+
+More about this Textbook
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+This book is one of many adapted versions of the open-source textbook called `How to Think Like A Computer Scientist: Learning with Python <http://www.openbookproject.net/thinkcs/python/english2e/>`_, which is used in many universities around the world.
+
+Runestone is a platform for hosting *interactive* electronic textbooks. The folks at Runestone created `ThinkCsPy <http://interactivepython.org/runestone/static/thinkcspy/index.html>`_, an interactive version of the original book.
+
+LaunchCode has customized Runestone's *ThinkCsPy*, resulting in the book you are reading!
+
+`Copyright Notice <runestone/static/thinkcspy/FrontBackMatter/copyright.html>`_
+
+.. toctree::
+   :hidden:
+
+   FrontBackMatter/copyright.rst
