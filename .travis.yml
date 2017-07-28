@@ -6,6 +6,5 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # set in travis-ci.org dashboard
   local_dir: build/thinkcspy/
-
   on:
     branch: master
