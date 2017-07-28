@@ -40,7 +40,7 @@ options(
             'appname':master_app,
             'loglevel':10,
             'course_url':master_url,
-            'use_services': 'true',
+            'use_services': 'false',
             'python3': 'true',
             'dburl': 'postgres://launchclass:toinfinityandbeyond@localhost/runestone',
             'basecourse': 'thinkcspy',

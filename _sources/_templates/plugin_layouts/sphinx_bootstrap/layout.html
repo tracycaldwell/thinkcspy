@@ -53,8 +53,8 @@
       </button>
 
       <div>
-        <a class="brand-logo" style='background: transparent url("{{pathto('_static/img/lc_logo_small.png', 1)}}") no-repeat 0px 0px;' href="/runestone/static/thinkcspy/index.html">&nbsp; </a>
-        <a class="navbar-brand" href="/runestone/static/thinkcspy/index.html">{% if theme_navbar_title -%}{{ theme_navbar_title|e }}{%- else -%}{{ project|e }}{%- endif -%}</a>
+        <a class="brand-logo" style='background: transparent url("{{pathto('_static/img/lc_logo_small.png', 1)}}") no-repeat 0px 0px;' href="/">&nbsp; </a>
+        <a class="navbar-brand" href="/">{% if theme_navbar_title -%}{{ theme_navbar_title|e }}{%- else -%}{{ project|e }}{%- endif -%}</a>
       </div>
     </div>
 
@@ -100,6 +100,7 @@
 
         <li class="divider-vertical"></li>
 
+        {% if use_services == 'true' %}
         <!-- navigation dropdown -->
         <li class="dropdown">
           <a class="dropdown-toggle" href="#" data-toggle="dropdown">
@@ -115,9 +116,11 @@
             <li><a href="{{course_url}}/{{appname}}/default/user/change_password" id="passwordlink">Change Password</a></li>
             <li><a href="{{course_url}}/{{appname}}/default/user/register" id="registerlink">Register</a></li>
             <li class='loginout'><a href='#'>Login</a></li> <!-- correct link populated by addNavbarLoginLink() -->
+
           </ul>
         </li>
         <!-- end navigation dropdown -->
+        {% endif %}
 
     </div>
   </div>
