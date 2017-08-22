@@ -1,7 +1,7 @@
 language: python
 python:
   - "2.7"
-script: runestone build && touch build/thinkcspy/.nojekyll && echo 'bgschiller.github.io' > build/thinkcspy/CNAME
+script: runestone build && touch build/thinkcspy/.nojekyll && echo 'coding101.devetry.com' > build/thinkcspy/CNAME
 deploy:
   provider: pages
   skip_cleanup: true
