@@ -20,7 +20,7 @@ except ImportError:
 project_name = "thinkcspy"
 ###############################
 
-master_url = 'https://brianschiller.com/thinkcspy'
+master_url = 'http://coding101.devetry.com'
 master_app = 'runestone'
 serving_dir = "./build/thinkcspy"
 dest = "../../static"
