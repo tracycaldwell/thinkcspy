@@ -420,9 +420,11 @@ This book is one of many adapted versions of the open-source textbook called `Ho
 
 Runestone is a platform for hosting *interactive* electronic textbooks. The folks at Runestone created `ThinkCsPy <http://interactivepython.org/runestone/static/thinkcspy/index.html>`_, an interactive version of the original book.
 
-LaunchCode has customized Runestone's *ThinkCsPy*, resulting in the book you are reading!
+LaunchCode, a non-profit in St Louis, customized Runestone's *ThinkCsPy*.
 
-`Copyright Notice <runestone/static/thinkcspy/FrontBackMatter/copyright.html>`_
+Devetry made some additional customizations, resulting in the book you are reading!
+
+`Copyright Notice </FrontBackMatter/copyright.html>`_
 
 .. toctree::
    :hidden:

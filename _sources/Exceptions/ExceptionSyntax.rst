@@ -80,7 +80,7 @@ It's a good idea to review the `Python Tutorial <https://docs.python.org/3/tutor
 An Example of File I/O
 ----------------------
 
-Although we will not be covering file input and output in the main text of this course (there is a `Hacker Chapter <https://runestone.launchcode.org/runestone/static/thinkcspy/Files/intro-WorkingwithDataFiles.html>`_ you can work through if you are interested), it is worth noting that one place where you will always want to include exception handling is when you read or write to a file.
+Although we will not be covering file input and output in the main text of this course (there is a `Hacker Chapter </Files/intro-WorkingwithDataFiles.html>`_ you can work through if you are interested), it is worth noting that one place where you will always want to include exception handling is when you read or write to a file.
 
 Here is a typical example of file processing. Note that the outer ``try: except:`` block takes care of a missing file or the fact that the existing file can't be opened for writing. The inner ``try: except:`` block  protects against output errors, such as trying to write to a device that is full. The ``finally`` code guarantees that the file is closed properly, even if there are errors during writing.
 

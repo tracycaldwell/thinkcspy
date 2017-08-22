@@ -53,8 +53,8 @@
       </button>
 
       <div>
-        <a class="brand-logo" style='background: transparent url("{{pathto('_static/img/devetry_logo.png', 1)}}") no-repeat 0px 0px;' href="/thinkcspy/">&nbsp; </a>
-        <a class="navbar-brand" href="/thinkcspy/">{% if theme_navbar_title -%}{{ theme_navbar_title|e }}{%- else -%}{{ project|e }}{%- endif -%}</a>
+        <a class="brand-logo" style='background: transparent url("{{pathto('_static/img/devetry_logo.png', 1)}}") no-repeat 0px 0px;' href="/">&nbsp; </a>
+        <a class="navbar-brand" href="/">{% if theme_navbar_title -%}{{ theme_navbar_title|e }}{%- else -%}{{ project|e }}{%- endif -%}</a>
       </div>
     </div>
 
@@ -109,8 +109,8 @@
           <ul class="dropdown-menu user-menu">
             <li><span class='loggedinuser'></span></li>
             <li class="divider"></li>
-            <li><a href="/runestone/static/thinkcspy/toc.html">Table of Contents</a></li>
-            <li><a href="/runestone/static/thinkcspy/genindex.html">Index</a></li>
+            <li><a href="/toc.html">Table of Contents</a></li>
+            <li><a href="/genindex.html">Index</a></li>
             <li class="divider"></li>
             <li><a href="{{course_url}}/{{appname}}/default/user/profile" id="profilelink">Edit Profile</a></li>
             <li><a href="{{course_url}}/{{appname}}/default/user/change_password" id="passwordlink">Change Password</a></li>
