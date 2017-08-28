@@ -291,7 +291,7 @@ Weekly Graded Assignment
            # your code here
 
 
-       # don't include these tests in Vocareum
+       # some tests to check your work. You shouldn't modify these.
        from test import testEqual
 
        testEqual(get_country_codes("NZ$300, KR$1200, DK$5"), "NZ, KR, DK")

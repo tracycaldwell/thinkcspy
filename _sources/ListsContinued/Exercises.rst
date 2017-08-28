@@ -184,7 +184,7 @@ Weekly Graded Assignment
        def sum_of_initial_odds(nums):
            # your code here
 
-      # Don't include these tests in vocareum!
+       # some tests to check your work. You shouldn't modify these.
        from test import testEqual
 
        testEqual(sum_of_initial_odds([1,3,1,4,3,8]), 5)

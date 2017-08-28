@@ -274,19 +274,12 @@ In effect, that conditional says:
 .. note::
     If you are curious about the ``if __name__ == '__main__':`` conditional, you can check out this `Stack Overflow post`_.
 
-Now we are good to go! The program works normally when run directly from the command-line, but if some other file imports it, the ``main`` function will not execute. All of this should be a review, since we have been using this structure throughout the book after learning about ``__main__`` in the Functions chapter. But it is especially important to follow this organization now that you are using Python locally and submitting entire files to Vocareum (more about this below).
-
-.. warning::
-    Before you submit your work, it is important that you transform your ``initials.py`` code to reflect the example above. The grading script is going to ``import`` your file, and if you have a loose ``input`` statement at the global scope level, that statement is going to execute and wait forever for input from a non-existent user, and you will find yourself waiting a very long time for your grade.
+Now we are good to go! The program works normally when run directly from the command-line, but if some other file imports it, the ``main`` function will not execute. All of this should be a review, since we have been using this structure throughout the book after learning about ``__main__`` in the Functions chapter.
 
 How to Submit
 =============
 
-The submission process for this assignment is slightly **different** from that of your previous assignments. You will not be given a pre-made starter file into which you can paste your code. Instead, you must upload your own file into the workspace.
-
-1. Click the *Upload* button on the top-left of the Vocareum window, and select your ``initials.py`` file.
-2. Click *Submit*!
-
+Make a github gist with your ``initials.py`` file and email us a link.
 
 .. _The Accumulator Pattern: ../Strings/Loopingandcounting.html#the-accumulator-pattern-with-strings
 .. _Using Python Locally: #part-1-using-python-locally

@@ -46,7 +46,7 @@ master_doc = 'toc'
 
 # General information about the project.
 project = u'How to Think Like a Computer Scientist'
-copyright = u'2014 Brad Miller, David Ranum, Created using Runestone Interactive. Customized by LaunchCode'
+copyright = u'2014 Brad Miller, David Ranum, Created using Runestone Interactive. Customized by LaunchCode, then by Devetry'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

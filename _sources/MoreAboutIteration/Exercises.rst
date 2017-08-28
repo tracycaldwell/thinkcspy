@@ -394,7 +394,7 @@ Weekly Graded Assignment
     * If the average score is greater than or equal to 70 *and* no single test score is below 50, then return a message of ``"pass"``.
     * If the average score is lower than 70 *or* at least one test score is below 50, then return a message of ``"fail"``.
 
-    Some sample function calls with comments on what should be printed out are included in ``main`` for testing purposes. You should only put the code for the ``course_grader`` function into Vocareum.
+    Some sample function calls with comments on what should be printed out are included in ``main`` for testing purposes.
 
 
     .. activecode:: ex_course_grader

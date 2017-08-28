@@ -324,7 +324,6 @@ Weekly Graded Assignment
 
 
         # The code below is just for your testing purposes. Make sure you pass all the tests.
-        # In Vocareum, only put code for the sort_contacts function above
         from test import testEqual
 
         testEqual(sort_contacts({"Horney, Karen": ("1-541-656-3010", "karen@psychoanalysis.com"),

@@ -589,13 +589,11 @@ Your Vigenere program should behave like this:
 Submitting Your Work
 -----------------------
 
-To submit your work, you must upload your files directly, using the *Upload* button in the top-left of the Vocareum window. Upload all 3 files:
+To submit your work, email a github gist with your code. Upload all 3 files:
 
 - caesar.py
 - vigenere.py
 - helpers.py
-
-Finally, as usual, click Submit!
 
 .. warning::
     Remember that you should not have any ``input`` statements anywhere outside of your ``main`` function. This is true for both Caesar and Vigenere. If you find yourself waiting a very long time (30 seconds or more) for your grade, then this is the reason why.

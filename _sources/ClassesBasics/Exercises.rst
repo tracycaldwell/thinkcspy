@@ -252,7 +252,6 @@ Weekly Graded Assignment
         # TODO: add the Car class
 
 
-        # some tests to check your code, Do Not Post These in Vocareum
         from test import testEqual
         testEqual( Car(10).fill_up(), 3 )
         testEqual( Car(20).fill_up(), 0 )

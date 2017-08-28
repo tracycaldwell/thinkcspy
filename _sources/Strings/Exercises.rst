@@ -289,10 +289,9 @@ Weekly Graded Assignment
             # Your code here
 
 
-        # Don't copy these tests into Vocareum!
         # Note that depending on whether you use str.format or string concatenation
         # your code will pass different tests. As long as your code passes either
-        # tests 1-3 OR tests 4-6, it should pass in Vocareum. See below for more details.
+        # tests 1-3 OR tests 4-6, you'll be okay. See below for more details.
         from test import testEqual
 
         # Tests 1-3: solutions using string concatenation should pass these

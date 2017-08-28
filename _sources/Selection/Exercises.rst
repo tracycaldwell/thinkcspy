@@ -453,7 +453,6 @@ Weekly Graded Assignment
             # your code here
 
         # Below is a set of tests so you can check if your code is correct.
-        # Do not copy this part into Vocareum.
         from test import testEqual
 
         testEqual(is_leap(1944), True)

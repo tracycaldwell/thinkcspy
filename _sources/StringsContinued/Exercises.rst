@@ -196,7 +196,7 @@ Weekly Graded Assignment
 
 .. container:: full_width
 
-    Write a function that mirrors its argument. For example, ``mirror('good')`` should return a string holding the value ``gooddoog``. (Hint: Make use of the ``reverse`` function that you wrote in a previous exercise). 
+    Write a function that mirrors its argument. For example, ``mirror('good')`` should return a string holding the value ``gooddoog``. (Hint: Make use of the ``reverse`` function that you wrote in a previous exercise).
 
     .. activecode:: ex_8_6
 
@@ -208,7 +208,7 @@ Weekly Graded Assignment
             # your code here
 
 
-        # Don't copy these tests into Vocareum
+        # some tests to check your work. You shouldn't modify these.
         from test import testEqual
         testEqual(mirror('good'), 'gooddoog')
         testEqual(mirror('Python'), 'PythonnohtyP')
