@@ -24,10 +24,6 @@ Table of Contents
 2. Simple Python Data
 :::::::::::::::::::::::::::::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading2.rst
 
 .. toctree::
    :maxdepth: 1
@@ -50,10 +46,6 @@ Table of Contents
 3. Debugging
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading3.rst
 
 .. toctree::
    :maxdepth: 1
@@ -77,10 +69,6 @@ Table of Contents
 4. Modules (and Turtles!)
 :::::::::::::::::::::::::::::::::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading4.rst
 
 .. toctree::
    :maxdepth: 1
@@ -106,10 +94,6 @@ Table of Contents
 5. Functions
 :::::::::::::::::::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading5.rst
 
 .. toctree::
    :maxdepth: 1
@@ -133,10 +117,6 @@ Table of Contents
 6. Selection
 :::::::::::::::::::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading6.rst
 
 .. toctree::
    :maxdepth: 1
@@ -157,10 +137,6 @@ Table of Contents
 7. Exceptions and Problem Solving
 ::::::::::::::::::::::::::::::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading7.rst
 
 .. toctree::
    :maxdepth: 1
@@ -178,10 +154,6 @@ Table of Contents
 8. More About Iteration
 ::::::::::::::::::::::::::::::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading8.rst
 
 .. toctree::
    :maxdepth: 1
@@ -202,10 +174,6 @@ Table of Contents
 9. Strings
 ::::::::::::::::::::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading9.rst
 
 .. toctree::
    :maxdepth: 1
@@ -227,10 +195,6 @@ Table of Contents
 10. Lists
 ::::::::::::::::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading10.rst
 
 .. toctree::
    :maxdepth: 1
@@ -255,10 +219,6 @@ Table of Contents
 11. Dictionaries and Tuples
 ::::::::::::::::::::::::::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading11.rst
 
 .. toctree::
    :maxdepth: 1
@@ -279,10 +239,6 @@ Table of Contents
 12. Classes and Objects --- Basics
 :::::::::::::::::::::::::::::::::::::::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading12.rst
 
 .. toctree::
    :maxdepth: 1
@@ -304,10 +260,6 @@ Table of Contents
 13. Classes and Objects --- Digging Deeper
 ::::::::::::::::::::::::::::::::::::::::::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Heading13.rst
 
 .. toctree::
    :maxdepth: 1
@@ -326,10 +278,6 @@ Table of Contents
 Studios
 :::::::
 
-.. toctree::
-   :hidden:
-
-   ChapterHeadings/Studios.rst
 
 .. toctree::
     :maxdepth: 1
