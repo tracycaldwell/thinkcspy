@@ -400,8 +400,6 @@ Weekly Graded Assignment
 
         # Below are some tests which can give you an indication that your code seems to be correct.
 
-        # IMPORTANT: You should NOT include this part when you submit in Vocareum.
-        # When you submit, only include the function above.
         from test import testEqual
 
         t = area_of_circle(0)
