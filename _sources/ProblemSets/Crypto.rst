@@ -252,7 +252,7 @@ As you can see in the video, Vigenere uses a word as the encryption key, rather 
     Uvs osck rmwse bh auebwsih!
 
 
-Above, the user entered a message of "The crow flies at midnight" and an encryption key of "boom", and the program printed “Uvs osck rmwse bh auebwsih!”.
+Above, the user entered a message of "The crow flies at midnight!" and an encryption key of "boom", and the program printed “Uvs osck rmwse bh auebwsih!”.
 
 How did we arrive at that result? Here is a detailed breakdown:
 
