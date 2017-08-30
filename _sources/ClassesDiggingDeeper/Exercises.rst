@@ -19,7 +19,8 @@ Exercises
 
               We can represent a rectangle by knowing three things: the location of its lower left corner, its width, and its height. Create a class definition for a Rectangle class using this idea. For instance, to create a Rectangle object at location (4,5) with width 6 and height 5, we would do the following::
 
-                  r = Rectangle(Point(4, 5), 6, 5)
+                  loc = Point(4, 5)
+                  r = Rectangle(loc, 6, 5)
 
               .. activecode:: classes_deeper_q1
 
