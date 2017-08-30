@@ -129,7 +129,6 @@ This L-system uses symbols that will have special meaning when we use them later
 
 ====  ===================================
 F     Go forward by some number of units
-B     Go backward by some number of units
 \-    Turn left by some degrees
 \+    Turn right by some degrees
 ====  ===================================
@@ -172,8 +171,6 @@ To create a Python function to draw a string we will write a function called
         for cmd in instructions:
             if cmd == 'F':
                 aTurtle.forward(distance)
-            elif cmd == 'B':
-                aTurtle.backward(distance)
             elif cmd == '+':
                 aTurtle.right(angle)
             elif cmd == '-':
@@ -216,8 +213,6 @@ L-system string and then it creates a turtle and passes it and the string to the
         for cmd in instructions:
             if cmd == 'F':
                 aTurtle.forward(distance)
-            elif cmd == 'B':
-                aTurtle.backward(distance)
             elif cmd == '+':
                 aTurtle.right(angle)
             elif cmd == '-':
