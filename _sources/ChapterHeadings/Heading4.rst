@@ -1,5 +1,2 @@
-Modules (and Turtles!)
+Chapter 4: Modules (and Turtles!)
 ++++++++++++++++++++++++++
-
-.. image:: images/ch4.jpg
-   :alt: Chapter 4

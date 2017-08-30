@@ -1,5 +1,2 @@
-Exceptions and Problem Solving
+Chapter 7: Exceptions and Problem Solving
 +++++++++++++++++++++++++++++++
-
-.. image:: images/ch7.jpg
-   :alt: Chapter 7

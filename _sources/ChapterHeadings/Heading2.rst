@@ -1,5 +1,2 @@
-Simple Python Data
+Chapter 2: Simple Python Data
 ++++++++++++++++++++++++++
-
-.. image:: images/ch2.jpg
-   :alt: Chapter 2

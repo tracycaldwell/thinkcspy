@@ -1,5 +1,2 @@
-More About Iteration
+Chapter 8: More About Iteration
 +++++++++++++++++++++
-
-.. image:: images/ch8.jpg
-   :alt: Chapter 8

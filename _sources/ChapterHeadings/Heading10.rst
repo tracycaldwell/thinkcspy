@@ -1,5 +1,2 @@
-Lists
+Chapter 10: Lists
 +++++++++++++
-
-.. image:: images/ch10.jpg
-   :alt: Chapter 10

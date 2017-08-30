@@ -8,6 +8,11 @@ Table of Contents
 ::::::::::::::::::::::::::::::::
 
 .. toctree::
+  :hidden:
+
+  ChapterHeadings/Heading1.rst
+
+.. toctree::
    :maxdepth: 1
    :numbered: 1
 
