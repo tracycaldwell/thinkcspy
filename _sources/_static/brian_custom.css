@@ -1,0 +1,7 @@
+.section:before {
+  display: block;
+  content: " ";
+  margin-top: -53px; /* or if you have a non-hardcoded way to refer to the height of the nav */
+  height: 53px;
+  visibility: hidden;
+}
