@@ -340,6 +340,7 @@ Studios
     :maxdepth: 1
     :numbered: 1
 
+    Studios/hello-world.rst
     Studios/holiday.rst
     Studios/donuts.rst
     Studios/turtle-racing.rst
