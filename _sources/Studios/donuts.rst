@@ -8,9 +8,12 @@ Donuts
 Walkthrough
 -----------
 
-Imagine you're an American tourist in London. You've brought with you a bunch of `Union Jack <https://en.wikipedia.org/wiki/Union_Jack>`_ souvenir flags to sell, the proceeds of which will fund your excursions to local pubs. Each flag would be sold for $3 in the US, and the average pint in London costs £3.79 (3 pounds, 79 pence).
+Imagine you're an American tourist in London. You're *very* hungry, but can't figure out how many orders of fish-and-chips you can afford. They cost £4.79 (4 pounds, 79 pence) for one order, but the conversion rates are confusing! Let's write a program that asks
 
-In class, we will write a program that allows us to calculate how many pints of beer we would be able to afford if we sell a certain quantity of souvenir flags. Since the flags are purchased in dollars, we'll need to convert from dollars to pounds to determine the cost in the UK.
+- The current dollar-to-pound exchange rate (eg, $1.00 is £0.76 right now when I'm writing this)
+- How many dollars you're willing to spend.
+
+and tells us how many orders of fish-and-chips we can afford.
 
 .. activecode:: donuts_walkthrough
 
@@ -18,26 +21,23 @@ In class, we will write a program that allows us to calculate how many pints of 
     pounds_per_dollar = input("Current dollar-to-pound exchange rate: ")
     pounds_per_dollar = float(pounds_per_dollar)
 
-    # prompt for number of flags to sell
-    num_flags = input("How many flags did you sell? ")
-    num_flags = int(num_flags)
+    # prompt for our budget in dollars
+    budget_in_dollars = input("How much are you willing to spend (dollars)? ")
+    budget_in_dollars = int(num_flags)
 
-    # create variables for fixed values (cost flag, cost of pint)
-    pounds_per_pint = 3.79
-    dollars_per_flag = 3
+    # give a name to our fixed value (cost of fish-and-chips)
+    pounds_per_fish_and_chips_order = 4.79
 
-    # calculate how much a flag costs in pounds
-    pounds_per_flag = dollars_per_flag * pounds_per_dollar
+    # calculate how much money we have in pounds
+    budget_in_pounds = budget_in_dollars * pounds_per_dollar
 
-    # calculate how many pounds I'll have after selling them all
-    revenue = num_flags * pounds_per_flag
+    # calculate how many orders I can buy with that amount of money
+    # (notice we're using '//' to be sure we get a whole number.
+    #  if you're not sure what this does, change it to '/')
+    num_fish = budget_in_pounds // pounds_per_fish_and_chips_order
 
-    # calculate number beers I can buy with that amount of money
-    num_pints = revenue / pounds_per_pint
-    num_pints = int(num_pints)
-
-    # print out number of pints
-    print("You can afford", num_pints, "pints of beer!")
+    # print out number of orders
+    print("You can afford", num_fish, "orders of fish-and-chips!")
 
 Studio
 ------
