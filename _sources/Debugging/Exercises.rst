@@ -24,29 +24,6 @@ Exercises
 
            What type of error did the above program have?
 
-    #.  Picture a compass where 0 degrees represents North, 90 degrees represents East, and so on, all the way around to 360 degrees, which is again the same as 0 degrees: true north.
-
-        The program below envisions the scenario in which a person is facing North (aka 0 degrees) and spins some number of rotations, either clockwise or counter-clockwise (-1 represents a full counter-clockwise spin and 1 represents a full clockwise spin). It calculates the direction they end up facing in degrees. However, it doesn't work properly. Find and fix the error in the program.
-
-        .. activecode:: lc_ex_1_2
-
-            spins = input("How many times did you spin? (Enter a negative number for counter-clockwise spins) ")
-
-            degrees = float(spins) * 360
-
-            print("You are facing", degrees, "degrees relative to north")
-
-
-        .. mchoice:: lc_question1_1_2
-           :answer_a: Syntax error
-           :answer_b: Runtime error
-           :answer_c: Semantic error
-           :correct: c
-           :feedback_a: As written, the program is syntactically correct.
-           :feedback_b: As written, there are no runtime errors.
-           :feedback_c: You got it!
-
-           What type of error did the above program have?
 
     #.  You've written a program to convert degrees Celsius to degrees Fahrenheit. The program below makes the conversion in the opposite direction, from Fahrenheit to Celsius. However, it doesn't work properly. Find and fix the error in the program.
 
@@ -82,44 +59,75 @@ Exercises
 
             print("The team has", total_score, "points")
 
+    #.  **Rotary Thermostat**
+
+        This is a tricky one!
+
+        You have a thermostat that allows you to set the room to any temperature between 40 and 89 degrees.
+
+        The thermostat can be adjusted by turning a circular dial. For instance, if the temperature is set to 50 degrees and you turn the dial 10 clicks toward the left, you will set the temperature to 40 degrees. But if you keep turning 1 click to the left (represented as -1) it will circle back around to 89 degrees. If you are at 40 degrees and turn to the right by one click, you will get 41 degrees. As you continue to turn to the right, the temperature goes up, and the temperature gets closer and closer to 89 degrees. But as soon as you complete one full rotation (50 clicks), the temperature cycles back around to 40 degrees.
+
+        Write a program that calculates the temperature based on how much the dial has been turned. The number of clicks (from the starting point of 40 degrees) is contained in a variable. You should print the current temperature for each given click variable so that your output is as follows: ::
+
+            The temperature is 40
+            The temperature is 89
+            The temperature is 64
+            The temperature is 41
+            The temperature is 89
+            The temperature is 40
+
+        .. activecode:: lc_ex_1_5
+
+            #For each click variable, calculate the temperature and print it as shown in the instructions
+
+            click_1 = 0
+            # TODO calculate the temperature, and report it back to the user
+
+            click_2 = 49
+            # TODO calculate the temperature, and report it back to the user
+
+            click_3 = 74
+            # TODO calculate the temperature, and report it back to the user
+
+            click_4 = 51
+            # TODO calculate the temperature, and report it back to the user
+
+            click_5 = -1
+            # TODO calculate the temperature, and report it back to the user
+
+            click_6 = 200
+            # TODO calculate the temperature, and report it back to the user
+
+
 Weekly Graded Assignment
 ========================
 
 .. container:: full_width
 
-    This is a tricky one!
+  Picture a compass where 0 degrees represents North, 90 degrees represents East, and so on, all the way around to 360 degrees, which is again the same as 0 degrees: true north.
 
-    You have a thermostat that allows you to set the room to any temperature between 40 and 89 degrees.
+  The program below envisions the scenario in which a person is facing North (aka 0 degrees) and spins some number of rotations, either clockwise or counter-clockwise (-1 represents a full counter-clockwise spin and 1 represents a full clockwise spin). It calculates the direction they end up facing in degrees. However, it doesn't work properly. Find and fix the error in the program.
 
-    The thermostat can be adjusted by turning a circular dial. For instance, if the temperature is set to 50 degrees and you turn the dial 10 clicks toward the left, you will set the temperature to 40 degrees. But if you keep turning 1 click to the left (represented as -1) it will circle back around to 89 degrees. If you are at 40 degrees and turn to the right by one click, you will get 41 degrees. As you continue to turn to the right, the temperature goes up, and the temperature gets closer and closer to 89 degrees. But as soon as you complete one full rotation (50 clicks), the temperature cycles back around to 40 degrees.
+  .. activecode:: lc_ex_1_2
 
-    Write a program that calculates the temperature based on how much the dial has been turned. The number of clicks (from the starting point of 40 degrees) is contained in a variable. You should print the current temperature for each given click variable so that your output is as follows: ::
+      spins = input("How many times did you spin? (Enter a negative number for counter-clockwise spins) ")
 
-        The temperature is 40
-        The temperature is 89
-        The temperature is 64
-        The temperature is 41
-        The temperature is 89
-        The temperature is 40
+      degrees = float(spins) * 360
 
-    .. activecode:: lc_ex_1_5
+      print("You are facing", degrees, "degrees relative to north")
 
-        #For each click variable, calculate the temperature and print it as shown in the instructions
+      # when I input 0.25, I should get "90.0 degrees relative to north"
+      # when I input 1, I should get "0.0 degrees relative to north" (back where I started)
+      # when I input -2, I should get "0.0 degrees relative to north" (again, back where I started)
+      # when I input 1.5, I should get "180.0 degrees relative to north"
 
-        click_1 = 0
-        # TODO calculate the temperature, and report it back to the user
+  .. mchoice:: lc_question1_1_2
+     :answer_a: Syntax error
+     :answer_b: Runtime error
+     :answer_c: Semantic error
+     :correct: c
+     :feedback_a: As written, the program is syntactically correct.
+     :feedback_b: As written, there are no runtime errors.
+     :feedback_c: You got it!
 
-        click_2 = 49
-        # TODO calculate the temperature, and report it back to the user
-
-        click_3 = 74
-        # TODO calculate the temperature, and report it back to the user
-
-        click_4 = 51
-        # TODO calculate the temperature, and report it back to the user
-
-        click_5 = -1
-        # TODO calculate the temperature, and report it back to the user
-
-        click_6 = 200
-        # TODO calculate the temperature, and report it back to the user
+     What type of error did the above program have?
