@@ -5,3 +5,8 @@
   height: 53px;
   visibility: hidden;
 }
+
+.ac_editor_container {
+  display: flex;
+  flex-direction: column-reverse;
+}
