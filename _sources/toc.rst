@@ -4,6 +4,11 @@
 Table of Contents
 ------------------
 
+.. toctree::
+  :hidden:
+
+  Schedules/sept-2017.rst
+
 1. General Intro
 ::::::::::::::::::::::::::::::::
 
