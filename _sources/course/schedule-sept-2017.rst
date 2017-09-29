@@ -40,9 +40,9 @@ In Class
 #. Tips for getting un-stuck.
 #. Afterwards, we'll learn how to use some of the websites and programs necessary for the class.
 
-  #. Textbook (`coding101.devetry.com </>`_)
-  #. github.com
-  #. Atom
+   #. Textbook (`coding101.devetry.com </>`_)
+   #. `github.com <https://github.com>`_
+   #. `Atom <https://atom.io>`_
 
 #. If there's time, we'll split into pairs to work on Studio: Holiday. A Studio is a practice problem that you work on during class time. Today the studio is optional.
 
