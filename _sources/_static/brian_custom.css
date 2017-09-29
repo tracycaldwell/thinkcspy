@@ -10,3 +10,16 @@
   display: flex;
   flex-direction: column-reverse;
 }
+
+.ac_output pre.ac-code-changed {
+  background: initial;
+  animation: flash-background 1s;
+}
+@keyframes flash-background {
+  0% {
+    background: rgba(255, 255, 0, 0.3);
+  }
+  100% {
+    background: initial;
+  }
+}
