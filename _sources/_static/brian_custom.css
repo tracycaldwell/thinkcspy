@@ -6,6 +6,13 @@
   visibility: hidden;
 }
 
+/* We don't want red borders warning students they haven't saved, because
+  we've disabled saving. */
+.CodeMirror.cm-s-default {
+  border-top: none!important;
+  border-bottom: none!important;
+}
+
 .ac_editor_container {
   display: flex;
   flex-direction: column-reverse;
