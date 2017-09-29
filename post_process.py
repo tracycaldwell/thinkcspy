@@ -34,4 +34,4 @@ def html_files():
 
 
 if __name__ == '__main__':
-    map(rewrite_links, html_files())
+    map(process_file, html_files())
