@@ -4,10 +4,14 @@
 Table of Contents
 ------------------
 
-.. toctree::
-  :hidden:
+Course Syllabus and Schedule
+::::::::::::::::::::::::::::::::
 
-  Schedules/sept-2017.rst
+.. toctree::
+  :maxdepth: 1
+
+  course/welcome.rst
+  course/schedule-sept-2017.rst
 
 1. General Intro
 ::::::::::::::::::::::::::::::::
