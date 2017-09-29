@@ -1,7 +1,7 @@
 language: python
 python:
   - "2.7"
-script: brian_build.sh
+script: bash ./brian_build.sh
 deploy:
   provider: pages
   skip_cleanup: true
