@@ -1,6 +1,23 @@
 Sept 5 - Oct 26 2017 at Emily Griffith Technical College
 ========================================================
 
+Class 1.1, Tues Sep 5
+---------------------
+
+Prep Work
+^^^^^^^^^
+
+Before coming to the first day of class, there is a little bit of "Prep Work" for you to do. In fact, most days of class will be preceded by Prep Work, usually reading from an e-book and working on practice exercises.
+
+Since this is the first day of class, your Coding Prep will be fairly light reading, but there are a few additional things we would like you to read as well.
+
+Prep Work will usually involve reading chapters in the book as well as attempting exercises. The readings are interspersed with interactive components such as active code examples with which you can tinker and explore, and multiple-choice questions so you can check your understanding. After completing the reading, you should attempt at least 5 exercises listed at the end of that chapter. You are encouraged to do more and try to get them all correct, but you must at a minimum attempt 5 exercises from each chapter.
+
+Due Today
+^^^^^^^^^
+
+Read the following chapters from the textbook.
+
 Class 1.8, Tues Oct 3
 ---------------------
 
