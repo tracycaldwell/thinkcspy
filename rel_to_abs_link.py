@@ -26,10 +26,17 @@ cases = [
         'fname': './build/thinkcspy/Debugging/BeginningtipsforDebugging/index.html',
         'expected': '/_static/basic.css',
     },
+    {
+        'href': u'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
+        'fname': './build/thinkcspy/toc/index.html'
+        'expected': u'https:/cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
+    },
 ]
 
 
 def process_href(href, fname):
+    if href.startswith('http:') or href.startswith('https:'):
+        return href
     important_part_of_fname = fname.replace('./build/thinkcspy', '')
     if fname != './build/thinkcspy/index.html':
         important_part_of_fname = important_part_of_fname.replace(
