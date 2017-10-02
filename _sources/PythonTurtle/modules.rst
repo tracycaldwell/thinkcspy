@@ -20,6 +20,7 @@ A **module** is a file containing Python definitions and statements intended for
 .. activecode:: chmod_01
    :nocodelens:
 
+   #
    import turtle            # allows us to use the turtles library
 
    wn = turtle.Screen()     # creates a graphics window
