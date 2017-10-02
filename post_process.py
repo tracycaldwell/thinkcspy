@@ -12,7 +12,7 @@ def process_file(fname):
     rewrite_links(soup, fname)
 
     with open(fname, 'wb') as f:
-        f.write(soup.prettify().encode('utf-8'))
+        f.write(u'{}'.format(soup).encode('utf-8'))
 
 
 def rewrite_links(soup, fname):
@@ -25,7 +25,6 @@ def rewrite_links(soup, fname):
     for link in all_links:
         href = link.attrs['href'].replace('.html', '')
         if not href.startswith('/'):
-            print dict(href=href, fname=fname, expected=process_href(href, fname))
             href = process_href(href, fname)
         link.attrs['href'] = href
 
@@ -37,7 +36,6 @@ def rewrite_links(soup, fname):
         if 'src' not in script.attrs:
             continue
         if not script.attrs['src'].startswith('/'):
-            print dict(href=script.attrs['src'], fname=fname, expected=process_href(script.attrs['src'], fname))
             script.attrs['src'] = process_href(script.attrs['src'], fname)
 
 
