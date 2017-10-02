@@ -28,7 +28,7 @@ cases = [
     },
     {
         'href': u'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
-        'fname': './build/thinkcspy/toc/index.html'
+        'fname': './build/thinkcspy/toc/index.html',
         'expected': u'https:/cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
     },
 ]
