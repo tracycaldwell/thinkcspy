@@ -213,6 +213,19 @@ Due Today
 * Please do (and turn in) `this exercise from chapter 10 </Lists/Exercises#weekly-graded-assignment>`_.
   (I just noticed that those are called "Weekly Graded Assignments", yet we usually have two due
   every week. Doesn't seem very fair...)
+
+In Class
+^^^^^^^^
+
+Catch-up day. We'll go over homework problems and then have work time during which you can ask questions.
+
+Class 1.9, Tues Oct 10
+-----------------------
+
+
+Due Today
+^^^^^^^^^
+
 * Please read `Chapter 11: Dictionaries and Tuples </#dictionaries-and-tuples>`_ and try some exercises.
 * Finish the `Initials assignment </ProblemSets/Initials>`_. Be ready to demo it to your instructor.
 
@@ -223,7 +236,8 @@ In Class
 
 Also, you will demo your Initials assignment to your instructor.
 
-Class 1.10, Tues Oct 10
+
+Class 1.10, Thurs Oct 12
 -----------------------
 
 Due Today
@@ -237,7 +251,7 @@ In Class
 
 Catch-up day! We'll go through some exercises, answer questions, talk about the Crypto assignment -- whatever you're confused about.
 
-Class 1.11, Thurs Oct 12
+Class 1.11, Tues Oct 17
 ------------------------
 
 Due Today
@@ -252,7 +266,7 @@ In Class
 
 Studio: `Counting Characters </Studios/counting-characters>`_
 
-Class 1.12, Tues Oct 17
+Class 1.12, Thurs Oct 19
 -----------------------
 
 Due Today
@@ -266,7 +280,7 @@ In Class
 
 TBD
 
-Class 1.13, Thurs Oct 19
+Class 1.13, Thurs Oct 21
 ------------------------
 
 Due Today
@@ -280,7 +294,7 @@ In Class
 * TBD
 * Anyone who's done with Crypto can demo it to their instructor.
 
-Class 1.14, Thurs Oct 21
+Class 1.14, Tues Oct 24
 ------------------------
 
 Due Today
@@ -293,3 +307,12 @@ In Class
 
 * TBD
 * Demo Crypto to your instructor.
+
+Class 1.15, Thurs Oct 26
+------------------------
+
+In Class
+^^^^^^^^
+
+* Update on Coding 102.
+* Options for continuing to learn until we can offer that class.
