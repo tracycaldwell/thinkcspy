@@ -280,7 +280,7 @@ In Class
 
 TBD
 
-Class 1.13, Thurs Oct 21
+Class 1.13, Tues Oct 24
 ------------------------
 
 Due Today
@@ -291,10 +291,10 @@ Due Today
 In Class
 ^^^^^^^^
 
-* TBD
+* We'll build something together as a class. Maybe a twitter bot, maybe a website? Bring ideas!
 * Anyone who's done with Crypto can demo it to their instructor.
 
-Class 1.14, Tues Oct 24
+Class 1.14, Thurs Oct 26
 ------------------------
 
 Due Today
@@ -305,14 +305,6 @@ Due Today
 In Class
 ^^^^^^^^
 
-* TBD
 * Demo Crypto to your instructor.
-
-Class 1.15, Thurs Oct 26
-------------------------
-
-In Class
-^^^^^^^^
-
 * Update on Coding 102.
 * Options for continuing to learn until we can offer that class.
