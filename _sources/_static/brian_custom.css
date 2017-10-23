@@ -30,3 +30,10 @@
     background: initial;
   }
 }
+
+body {
+  /* The next/prev page links are absolutely positioned to 95px
+  above the bottom of the body, so they disappear if the body is
+  too short. */
+  min-height: 300px;
+}
