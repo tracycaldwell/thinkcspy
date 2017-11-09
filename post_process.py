@@ -10,10 +10,17 @@ def process_file(fname):
         soup = BeautifulSoup(f)
 
     rewrite_links(soup, fname)
+    if 'course/entrance' in fname:
+        fix_broken_image_links_on_entrance_page(soup)
 
     with open(fname, 'wb') as f:
         f.write(u'{}'.format(soup).encode('utf-8'))
 
+def fix_broken_image_links_on_entrance_page(soup):
+    ii = soup.find(alt='Interpret illustration')
+    ii.attrs['src'] = '/_images/interpret.png'
+    ci = soup.find(alt='Compile illustration')
+    ci.attrs['src'] = '/_images/compile.png'
 
 def rewrite_links(soup, fname):
     all_links = itertools.chain(
