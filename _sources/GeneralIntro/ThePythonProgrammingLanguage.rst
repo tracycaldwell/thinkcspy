@@ -90,7 +90,7 @@ These examples show Python being run from a Unix command line. In other developm
    :answer_a: It is high-level if you are standing and low-level if you are sitting.
    :answer_b: It is high-level if you are programming for a computer and low-level if you are programming for a phone or mobile device.
    :answer_c: It is high-level if the program must be processed before it can run, and low-level if the computer can execute it without additional processing.
-   :answer_d: It is high-level if it easy to program in and is very short; it is low-level if it is really hard to program in and the programs are really long.
+   :answer_d: It is high-level if it's easy to program in and is very short; it is low-level if it is really hard to program in and the programs are really long.
    :correct: c
    :feedback_a: In this case high and low have nothing to do with altitude.
    :feedback_b: High and low have nothing to do with the type of device you are programming for. Instead, look at what it takes to run the program written in the language.
