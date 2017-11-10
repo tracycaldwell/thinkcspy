@@ -31,5 +31,5 @@ If you have any questions about the material, quiz, or class, don't hesitate to 
 
 Quiz
 ====
-
-Now that you've read the chapter, please give the `quiz <https://goo.gl/forms/vjCm3scfsCng4lAs1>`_ a shot. Remember, it's not graded and you can retake it if you're not satisfied.
+.. the iframe is placed here by post_process.py.
+.. I couldn't figure out how to use the raw tag to insert it in this file.

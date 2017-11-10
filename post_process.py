@@ -12,6 +12,7 @@ def process_file(fname):
     rewrite_links(soup, fname)
     if 'course/entrance' in fname:
         fix_broken_image_links_on_entrance_page(soup)
+        include_iframe_on_entrance_page(soup)
 
     with open(fname, 'wb') as f:
         f.write(u'{}'.format(soup).encode('utf-8'))
@@ -21,6 +22,28 @@ def fix_broken_image_links_on_entrance_page(soup):
     ii.attrs['src'] = '/_images/interpret.png'
     ci = soup.find(alt='Compile illustration')
     ci.attrs['src'] = '/_images/compile.png'
+
+def include_iframe_on_entrance_page(soup):
+    section = soup.find(id='quiz')
+    quiz_iframe = BeautifulSoup('''
+    <script type="text/javascript">
+      window.addEventListener('message', function() {
+        console.log('message recieved', arguments);
+      });
+    </script>
+    <div>
+        <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdMoTDxLQupF_1eKz6EDA8eYLaXr7LVc89Rdy_gQgw5Zs_9KA/viewform?embedded=true"
+            frameborder="0"
+            onload="resizeIframe(this)"
+            width="100%"
+            height="1592px"
+        >
+            Loading...
+        </iframe>
+    </div>
+    ''')
+    section.append(quiz_iframe)
 
 def rewrite_links(soup, fname):
     all_links = itertools.chain(
