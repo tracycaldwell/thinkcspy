@@ -13,21 +13,21 @@ Instructions
 
 If you have any questions about the material, quiz, or class, don't hesitate to send an email to `coding101@devetry.com <mailto:coding101@devetry.com>`_
 
-.. include:: ../GeneralIntro/intro-TheWayoftheProgram.rst
+.. include:: ./GeneralIntro/intro-TheWayoftheProgram.rst
 
-.. include:: ../GeneralIntro/Algorithms.rst
+.. include:: ./GeneralIntro/Algorithms.rst
 
-.. include:: ../GeneralIntro/ThePythonProgrammingLanguage.rst
+.. include:: ./GeneralIntro/ThePythonProgrammingLanguage.rst
 
-.. include:: ../GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst
+.. include:: ./GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst
 
-.. include:: ../GeneralIntro/MoreAboutPrograms.rst
+.. include:: ./GeneralIntro/MoreAboutPrograms.rst
 
-.. include:: ../GeneralIntro/ATypicalFirstProgram.rst
+.. include:: ./GeneralIntro/ATypicalFirstProgram.rst
 
-.. include:: ../GeneralIntro/Comments.rst
+.. include:: ./GeneralIntro/Comments.rst
 
-.. include:: ../GeneralIntro/Glossary.rst
+.. include:: ./GeneralIntro/Glossary.rst
 
 Quiz
 ====

@@ -10,7 +10,7 @@ def process_file(fname):
         soup = BeautifulSoup(f)
 
     rewrite_links(soup, fname)
-    if 'course/entrance' in fname:
+    if 'save-my-spot' in fname:
         fix_broken_image_links_on_entrance_page(soup)
         include_iframe_on_entrance_page(soup)
 
@@ -37,7 +37,7 @@ def include_iframe_on_entrance_page(soup):
             frameborder="0"
             onload="resizeIframe(this)"
             width="100%"
-            height="1592px"
+            height="1780px"
         >
             Loading...
         </iframe>

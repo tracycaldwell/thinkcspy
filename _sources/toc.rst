@@ -10,13 +10,9 @@ Course Syllabus and Schedule
 .. toctree::
   :maxdepth: 1
 
+  save-my-spot.rst
   course/welcome.rst
   course/schedule-sept-2017.rst
-
-.. toctree::
-  :hidden:
-
-  course/entrance.rst
 
 1. General Intro
 ::::::::::::::::::::::::::::::::
