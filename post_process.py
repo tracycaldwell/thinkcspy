@@ -13,9 +13,14 @@ def process_file(fname):
     if 'save-my-spot' in fname:
         fix_broken_image_links_on_entrance_page(soup)
         include_iframe_on_entrance_page(soup)
+        remove_top_relations_console(soup)
 
     with open(fname, 'wb') as f:
         f.write(u'{}'.format(soup).encode('utf-8'))
+
+def remove_top_relations_console(soup):
+    trc = soup.find(id='top-relations-console')
+    trc.extract()
 
 def fix_broken_image_links_on_entrance_page(soup):
     ii = soup.find(alt='Interpret illustration')
@@ -26,16 +31,10 @@ def fix_broken_image_links_on_entrance_page(soup):
 def include_iframe_on_entrance_page(soup):
     section = soup.find(id='quiz')
     quiz_iframe = BeautifulSoup('''
-    <script type="text/javascript">
-      window.addEventListener('message', function() {
-        console.log('message recieved', arguments);
-      });
-    </script>
     <div>
         <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSdMoTDxLQupF_1eKz6EDA8eYLaXr7LVc89Rdy_gQgw5Zs_9KA/viewform?embedded=true"
             frameborder="0"
-            onload="resizeIframe(this)"
             width="100%"
             height="1780px"
         >
