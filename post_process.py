@@ -22,6 +22,10 @@ def fix_broken_image_links_on_entrance_page(soup):
     ii.attrs['src'] = '/_images/interpret.png'
     ci = soup.find(alt='Compile illustration')
     ci.attrs['src'] = '/_images/compile.png'
+    for link in itertools.chain(
+            soup.find_all(class_='navLink'),
+            soup.find_all(class_='navLinkBg')):
+        link.extract()
 
 def include_iframe_on_entrance_page(soup):
     section = soup.find(id='quiz')
