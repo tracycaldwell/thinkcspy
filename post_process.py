@@ -13,14 +13,9 @@ def process_file(fname):
     if 'save-my-spot' in fname:
         fix_broken_image_links_on_entrance_page(soup)
         include_iframe_on_entrance_page(soup)
-        remove_top_relations_console(soup)
 
     with open(fname, 'wb') as f:
         f.write(u'{}'.format(soup).encode('utf-8'))
-
-def remove_top_relations_console(soup):
-    trc = soup.find(id='top-relations-console')
-    trc.extract()
 
 def fix_broken_image_links_on_entrance_page(soup):
     ii = soup.find(alt='Interpret illustration')

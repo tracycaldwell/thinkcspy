@@ -37,3 +37,9 @@ body {
   too short. */
   min-height: 300px;
 }
+
+#save-your-spot-in-coding-101 #top-relations-console,
+#save-your-spot-in-coding-101 #bottom-relations-console,
+#save-your-spot-in-coding-101 .navLink {
+  display: none;
+}
