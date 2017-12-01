@@ -40,6 +40,9 @@ body {
 
 #save-your-spot-in-coding-101 #top-relations-console,
 #save-your-spot-in-coding-101 #bottom-relations-console,
-#save-your-spot-in-coding-101 .navLink {
+#save-your-spot-in-coding-101 .navLink,
+#register-for-coding-101 #top-relations-console,
+#register-for-coding-101 #bottom-relations-console,
+#register-for-coding-101 .navLink {
   display: none;
 }

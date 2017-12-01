@@ -10,9 +10,14 @@ def process_file(fname):
         soup = BeautifulSoup(f)
 
     rewrite_links(soup, fname)
-    if 'save-my-spot' in fname:
+    if fname.endswith('save-my-spot/index.html'):
         fix_broken_image_links_on_entrance_page(soup)
+        remove_nav_links(soup)
         include_iframe_on_entrance_page(soup)
+
+    if fname.endswith('register/index.html'):
+        remove_nav_links(soup)
+        include_iframe_on_register_page(soup)
 
     with open(fname, 'wb') as f:
         f.write(u'{}'.format(soup).encode('utf-8'))
@@ -22,10 +27,29 @@ def fix_broken_image_links_on_entrance_page(soup):
     ii.attrs['src'] = '/_images/interpret.png'
     ci = soup.find(alt='Compile illustration')
     ci.attrs['src'] = '/_images/compile.png'
+
+def remove_nav_links(soup):
     for link in itertools.chain(
             soup.find_all(class_='navLink'),
             soup.find_all(class_='navLinkBg')):
         link.extract()
+
+def include_iframe_on_register_page(soup):
+    section = soup.find(id='register-for-coding-101')
+    registration_iframe = BeautifulSoup('''
+    <div>
+        <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSetaKa9MOfTwx1ACw1jOKIH-N0IvVlIaz7R2mi_M4RBhzEc2g/viewform?embedded=true"
+            frameborder="0"
+            width="100%"
+            height="1100px"
+        >
+            Loading...
+        </iframe>
+    </div>
+    ''')
+    section.append(registration_iframe)
+
 
 def include_iframe_on_entrance_page(soup):
     section = soup.find(id='quiz')

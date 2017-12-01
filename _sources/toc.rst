@@ -16,6 +16,7 @@ Course Syllabus and Schedule
 .. toctree::
   :hidden:
 
+  register.rst
   save-my-spot.rst
 
 1. General Intro
