@@ -10,12 +10,12 @@ def process_file(fname):
         soup = BeautifulSoup(f)
 
     rewrite_links(soup, fname)
-    if fname.endswith('save-my-spot/index.html'):
+    if fname.endswith('save-my-spot.html'):
         fix_broken_image_links_on_entrance_page(soup)
         remove_nav_links(soup)
         include_iframe_on_entrance_page(soup)
 
-    if fname.endswith('register/index.html'):
+    if fname.endswith('register.html'):
         remove_nav_links(soup)
         include_iframe_on_register_page(soup)
 
