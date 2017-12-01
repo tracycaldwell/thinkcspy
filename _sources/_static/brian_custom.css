@@ -46,3 +46,8 @@ body {
 #register-for-coding-101 .navLink {
   display: none;
 }
+
+.registrationLink {
+  font-size: x-large;
+  margin-bottom: 40px;
+}
