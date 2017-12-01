@@ -47,7 +47,21 @@ body {
   display: none;
 }
 
-.registrationLink {
-  font-size: x-large;
+.registrationlink {
   margin-bottom: 40px;
+  border: 2px dashed #aaaaaa;
+  border-radius: 4px;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+.registrationlink > p {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.registrationlink > p:first-child {
+  margin-top: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  display: block;
 }
