@@ -3,9 +3,11 @@ Think Python - Devetry Edition
 
 Welcome to Devetry's *Think Python* course!
 
+.. role:: strikethrough
+
 .. container:: registrationlink
 
-  `Registration open now for Jan 22 - Mar 19 session! </register>`_
+  `Registration open now for session beginning March! </register>`_
 
   Mon, Thur; 6pm - 8:30pm
 
