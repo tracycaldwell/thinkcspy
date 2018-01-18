@@ -7,7 +7,7 @@ Welcome to Devetry's *Think Python* course!
 
 .. container:: registrationlink
 
-  `Registration open now for session beginning March! </register>`_
+  `Registration open now for March 12 - May 17! </register>`_
 
   Mon, Thur; 6pm - 8:30pm
 
