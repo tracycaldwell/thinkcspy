@@ -59,7 +59,7 @@ At the end of each chapter is a page called *Excercises*. Please attempt as many
 In Class
 ^^^^^^^^
 
-`Studio: Donuts <Studios/donuts>`_
+`Studio: Donuts </Studios/donuts>`_
 
 Class 1.3, Mon Mar 19
 ----------------------
@@ -87,7 +87,7 @@ In Class
 
 In class today, we will do two studios!
 
-* `Studio: Turtle Racing <Studios/turtle-racing>`_
+* `Studio: Turtle Racing </Studios/turtle-racing>`_
 * `Studio: Wagon Wheel </Studios/wagon-wheel>`_
 
 Class 1.4, Thurs Mar 22
@@ -161,148 +161,148 @@ Catch-up day! We'll go over exercises or anything folks would like to understand
 
 .. Class 1.6, Mon Apr 9
 .. ----------------------
-.. 
+..
 .. No new reading for today, but please come to class with chapter 8 under your belt.
-.. 
+..
 .. Additionally, start working on the `Initials assignment </ProblemSets/Initials>`_.
-.. 
+..
 .. In Class
 .. ^^^^^^^^
-.. 
+..
 .. `Studio: Sorted </Studios/sorted>`_
-.. 
+..
 .. Class 1.7, Thurs Apr 12
 .. -----------------------
-.. 
+..
 .. Due Today
 .. ^^^^^^^^^
-.. 
+..
 .. * Please do (and turn in) `this exercise from chapter 8 </MoreAboutIteration/Exercises#weekly-graded-assignment>`_.
 .. * Read `Chapter 9: Strings </#strings>`_ and try some exercises.
 .. * Do the `Initials assignment </ProblemSets/Initials>`_.
-.. 
+..
 .. In Class
 .. ^^^^^^^^
-.. 
+..
 .. `Studio: Bugz </Studios/bugz>`_
-.. 
+..
 .. Class 1.8, Mon Apr 16
 .. ---------------------
-.. 
+..
 .. Due Today
 .. ^^^^^^^^^
-.. 
+..
 .. * Please do (and turn in) `this exercise from chapter 9 </Strings/Exercises#weekly-graded-assignment>`_.
 .. * Read `Chapter 10: Lists </#lists>`_ and try some exercises.
 .. * Do (or start) the `Initials assignment </ProblemSets/Initials>`_.
-.. 
+..
 .. In Class
 .. ^^^^^^^^
-.. 
+..
 .. `Studio: Bubble sort </Studios/bubble-sort>`_
-.. 
-.. 
+..
+..
 .. Class 1.9, Thurs Apr 19
 .. ----------------------
-.. 
+..
 .. Due Today
 .. ^^^^^^^^^
-.. 
+..
 .. * Please do (and turn in) `this exercise from chapter 10 </Lists/Exercises#weekly-graded-assignment>`_.
 ..   (I just noticed that those are called "Weekly Graded Assignments", yet we usually have two due
 ..   every week. Doesn't seem very fair...)
-.. 
+..
 .. In Class
 .. ^^^^^^^^
-.. 
+..
 .. Catch-up day. We'll go over homework problems and then have work time during which you can ask questions.
-.. 
+..
 .. Class 1.9, Mon Apr 23
 .. -----------------------
-.. 
-.. 
+..
+..
 .. Due Today
 .. ^^^^^^^^^
-.. 
+..
 .. * Please read `Chapter 11: Dictionaries and Tuples </#dictionaries-and-tuples>`_ and try some exercises.
 .. * Finish the `Initials assignment </ProblemSets/Initials>`_. Be ready to demo it to your instructor.
-.. 
+..
 .. In Class
 .. ^^^^^^^^
-.. 
+..
 .. `Studio: Yahtzee </Studios/yahtzee>`_
-.. 
+..
 .. Also, you will demo your Initials assignment to your instructor.
-.. 
-.. 
+..
+..
 .. Class 1.10, Thurs Apr 26
 .. -----------------------
-.. 
+..
 .. Due Today
 .. ^^^^^^^^^
-.. 
+..
 .. * Please do (and turn in) `this exercise from chapter 11 </Dictionaries/Exercises#weekly-graded-assignment>`_.
 .. * Read through the `Crypto assignment </ProblemSets/Crypto>`_.
-.. 
+..
 .. In Class
 .. ^^^^^^^^
-.. 
+..
 .. Catch-up day! We'll go through some exercises, answer questions, talk about the Crypto assignment -- whatever you're confused about.
-.. 
+..
 .. Class 1.11, Mon Apr 30
 .. ------------------------
-.. 
+..
 .. Due Today
 .. ^^^^^^^^^
-.. 
+..
 .. * No homework due today!
 .. * Please read `Chapter 12: Classes and Objects Basics </#classes-and-objects-basics>`_.
 .. * Keep working on `Crypto </ProblemSets/Crypto>`_.
-.. 
+..
 .. In Class
 .. ^^^^^^^^
-.. 
+..
 .. Studio: `Counting Characters </Studios/counting-characters>`_
-.. 
+..
 .. Class 1.12, Thurs May 3
 .. -----------------------
-.. 
+..
 .. Due Today
 .. ^^^^^^^^^
-.. 
+..
 .. * Please read `Chapter 13: Classes and Objects - Digging Deeper </#classes-and-objects-digging-deeper>`_ (the last chapter!)
 .. * Keep working on `Crypto </ProblemSets/Crypto>`_.
-.. 
+..
 .. In Class
 .. ^^^^^^^^
-.. 
+..
 .. TBD
-.. 
+..
 .. Class 1.13, Mon May 7
 .. ------------------------
-.. 
+..
 .. Due Today
 .. ^^^^^^^^^
-.. 
+..
 .. * Keep working on `Crypto </ProblemSets/Crypto>`_.
-.. 
+..
 .. In Class
 .. ^^^^^^^^
-.. 
+..
 .. * We'll build something together as a class. Maybe a twitter bot, maybe a website? Bring ideas!
 .. * Anyone who's done with Crypto can demo it to their instructor.
-.. 
+..
 .. Class 1.14, Thurs May 10
 .. ------------------------
-.. 
+..
 .. Due Today
 .. ^^^^^^^^^
-.. 
+..
 .. * `Crypto Assignment </ProblemSets/Crypto>`_ .
-.. 
+..
 .. In Class
 .. ^^^^^^^^
-.. 
+..
 .. * Demo Crypto to your instructor.
 .. * Update on Coding 102.
 .. * Options for continuing to learn until we can offer that class.
