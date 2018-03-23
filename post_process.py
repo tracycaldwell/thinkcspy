@@ -28,10 +28,14 @@ def add_edit_this_page_link(soup, fname):
     if a is None:
         return
 
-    a.attrs['href'] = (fname
-        .replace('./build/thinkcspy', 'https://github.com/bgschiller/thinkcspy/tree/master/_sources')
-        .replace('/index.html', '.rst')
-        .replace('.html', '.rst'))
+    if fname == './build/thinkcspy/index.html':
+        replacement = 'https://github.com/bgschiller/thinkcspy/tree/master/_sources/index.rst'
+    else:
+        replacement = (fname
+            .replace('./build/thinkcspy', 'https://github.com/bgschiller/thinkcspy/tree/master/_sources')
+            .replace('/index.html', '.rst')
+            .replace('.html', '.rst'))
+    a.attrs['href'] = replacement
 
 def fix_broken_image_links_on_entrance_page(soup):
     ii = soup.find(alt='Interpret illustration')
