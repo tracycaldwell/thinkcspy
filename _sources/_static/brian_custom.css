@@ -65,3 +65,23 @@ body {
   font-weight: bold;
   display: block;
 }
+
+footer {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+footer .center {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+footer .center .edit-icon {
+  width: 16px;
+  fill: #428bca;
+  margin-right: 4px;
+}
+body {
+  height: 100%;
+  padding-bottom: 6rem; /* leave room for the footer */
+}

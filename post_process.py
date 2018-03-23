@@ -10,6 +10,7 @@ def process_file(fname):
         soup = BeautifulSoup(f)
 
     rewrite_links(soup, fname)
+    add_edit_this_page_link(soup, fname)
     if fname.endswith('save-my-spot.html'):
         fix_broken_image_links_on_entrance_page(soup)
         remove_nav_links(soup)
@@ -21,6 +22,16 @@ def process_file(fname):
 
     with open(fname, 'wb') as f:
         f.write(u'{}'.format(soup).encode('utf-8'))
+
+def add_edit_this_page_link(soup, fname):
+    a = soup.find(class_='edit-this-page-link')
+    if a is None:
+        return
+
+    a.attrs['href'] = (fname
+        .replace('./build/thinkcspy', 'https://github.com/bgschiller/thinkcspy/tree/master/_sources')
+        .replace('/index.html', '.rst')
+        .replace('.html', '.rst'))
 
 def fix_broken_image_links_on_entrance_page(soup):
     ii = soup.find(alt='Interpret illustration')
