@@ -68,7 +68,7 @@ In the end, running this program --- with the code included in ``main`` --- shou
 .. activecode:: sherlock_studio
 
     def sherlock(guests)
-       for guest in press:
+        for guest in press:
             if guest = "Dr Watson" and "Inspector Lestrade":
                 return "Enter";
             else

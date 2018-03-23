@@ -23,7 +23,7 @@ and tells us how many orders of fish-and-chips we can afford.
 
     # prompt for our budget in dollars
     budget_in_dollars = input("How much are you willing to spend (dollars)? ")
-    budget_in_dollars = int(num_flags)
+    budget_in_dollars = int(budget_in_dollars)
 
     # give a name to our fixed value (cost of fish-and-chips)
     pounds_per_fish_and_chips_order = 4.79
@@ -86,3 +86,12 @@ Notice that the total price ``$8.74999125`` went way beyond 2 decimal places. Ob
 For the Manager's Special, you can make something up (you are the Manager, after all), or just use the Crunch Berries example. Whatever you decide, you can simply hard-code it directly into your code. In other words, the flavor doesn't actually have to change depending on what day it is. The important part of this Studio is the process involved in calculating the cost of the user's order.
 
 .. activecode:: donuts_studio
+
+Challenge Problems
+------------------
+
+If you've finished the studio and have time to spare, here are a few ideas of improvements you could make to your program.
+
+1. Try to fix the $7.3949111 formatting so that it only shows two decimal digits. $7.39, much nicer.
+2. If a customer tries to pay less than half the suggested price, admonish them a little bit: "Hey, I'm trying to make a living here!". You'll need to google "python if statements".
+3. Try to get the final price to show *exactly* two digits after the decimal, even if the price ends with a 0: $5.60 rather than $5.6
