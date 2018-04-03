@@ -370,7 +370,7 @@ Exercises
 
                 Implement the calculator for the date of Easter.
 
-                The following algorithm computes the date for Easter Sunday for any year between 1900 to 2099.
+                The following algorithm computes the date for Easter Sunday for any year between 1900 to 2099 inclusive.
 
                 Ask the user to enter a year. Compute the following:
 
