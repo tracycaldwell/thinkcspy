@@ -1,4 +1,4 @@
 Register for Coding 101
 =======================
 
-Registration for the next session is closed. You may add your email to be notified the next time Coding 101 is offered.
+Registration for the current session is closed. Please add your email below to be notified of the next time Coding 101 is offered. We look forward to having you in class :)
