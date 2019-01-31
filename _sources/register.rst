@@ -1,4 +1,4 @@
 Register for Coding 101
 =======================
 
-Registration for the current session is closed. Please add your email below to be notified of the next time Coding 101 is offered. We look forward to having you in class :)
+The next session will begin April 1st. We will meet on Mondays and Thursdays from 6pm - 8:30pm. We look forward to having you in class :)
