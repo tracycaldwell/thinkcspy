@@ -50,7 +50,7 @@ def remove_nav_links(soup):
         link.extract()
 
 def include_iframe_on_register_page(soup):
-    section = soup.find(id='register-for-coding-101')
+    section = soup.find(id='register-for-code-forward')
     registration_iframe = BeautifulSoup('''
     <div>
         <iframe
