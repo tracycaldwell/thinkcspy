@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+alabaster = "==0.7.8"
+babel = "==2.3.4"
+beautifulsoup4 = "==4.3.2"
+click = "==4.0"
+cogapp = "==2.4"
+docutils = "==0.12"
+itsdangerous = "==0.24"
+jinja2 = "==2.8"
+markupsafe = "==0.23"
+paver = "==1.2.4"
+pygments = "==2.1.3"
+pytz = "==2016.4"
+six = "==1.10.0"
+snowballstemmer = "==1.2.1"
+sphinx = "==1.4.1"
+sphinx-rtd-theme = "==0.1.8"
+sphinxcontrib-paverutils = "==1.7"
+runestone = {editable = true,git = "https://github.com/Launch-Code/RunestoneComponents.git",ref = "lc_stable"}
+
+[requires]
+python_version = "2.7"

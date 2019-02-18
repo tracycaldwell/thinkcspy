@@ -1,0 +1,157 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "a4f2801e98b14391da09b36a44a3194c2f5b83e30843caddb85fa19ff5b98718"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "2.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "alabaster": {
+            "hashes": [
+                "sha256:a1cb1b94fcc192ff74ca212d6ef5cb543bb169cfe7991c2b9df256bb354c1fff",
+                "sha256:e86ae2eb1a0297454ce6bbe94414fbb272ed9f148b9ca5344dc213164e0d3d74"
+            ],
+            "version": "==0.7.8"
+        },
+        "babel": {
+            "hashes": [
+                "sha256:3318ed2960240d61cbc6558858ee00c10eed77a6508c4d1ed8e6f7f48399c975",
+                "sha256:c535c4403802f6eb38173cd4863e419e2274921a01a8aad8a5b497c131c62875"
+            ],
+            "version": "==2.3.4"
+        },
+        "beautifulsoup4": {
+            "hashes": [
+                "sha256:a2b29bd048ca2fe54a046b29770964738872a9747003a371344a93eedf7ad58e"
+            ],
+            "index": "pypi",
+            "version": "==4.3.2"
+        },
+        "click": {
+            "hashes": [
+                "sha256:9ab1d313f99b209f8f71a629f36833030c8d7c72282cf7756834baf567dca662",
+                "sha256:f49e03611f5f2557788ceeb80710b1c67110f97c5e6740b97edf70245eea2409"
+            ],
+            "version": "==4.0"
+        },
+        "cogapp": {
+            "hashes": [
+                "sha256:5b71a8cfd8dcfd7c408d2ab0f25a4cd546a2d03f8cd99475f775ba79a75a7ba3"
+            ],
+            "version": "==2.4"
+        },
+        "docutils": {
+            "hashes": [
+                "sha256:c7db717810ab6965f66c8cf0398a98c9d8df982da39b4cd7f162911eb89596fa",
+                "sha256:dcebd4928112631626f4c4d0df59787c748404e66dda952110030ea883d3b8cd"
+            ],
+            "version": "==0.12"
+        },
+        "imagesize": {
+            "hashes": [
+                "sha256:0ab2c62b87987e3252f89d30b7cedbec12a01af9274af9ffa48108f2c13c6062",
+                "sha256:6ebdc9e0ad188f9d1b2cdd9bc59cbe42bf931875e829e7a595e6b3abdc05cdfb"
+            ],
+            "version": "==0.7.1"
+        },
+        "itsdangerous": {
+            "hashes": [
+                "sha256:cbb3fcf8d3e33df861709ecaf89d9e6629cff0a217bc2848f1b41cd30d360519"
+            ],
+            "version": "==0.24"
+        },
+        "jinja2": {
+            "hashes": [
+                "sha256:1cc03ef32b64be19e0a5b54578dd790906a34943fe9102cfdae0d4495bd536b4",
+                "sha256:bc1ff2ff88dbfacefde4ddde471d1417d3b304e8df103a7a9437d47269201bf4"
+            ],
+            "version": "==2.8"
+        },
+        "markupsafe": {
+            "hashes": [
+                "sha256:a4ec1aff59b95a14b45eb2e23761a0179e98319da5a7eb76b56ea8cdc7b871c3"
+            ],
+            "version": "==0.23"
+        },
+        "paver": {
+            "hashes": [
+                "sha256:6e155686eda543f3a863ef1d4389bce389a9738468a02f8aefc4b8b71cf6777e",
+                "sha256:e67976633402d017c993fea8022a5d33137d3b4c09758958314084c0589249a1"
+            ],
+            "version": "==1.2.4"
+        },
+        "pkginfo": {
+            "hashes": [
+                "sha256:ad3f6dfe8a831f96a7b56a588ca874137ca102cc6b79fc9b0a1c3b7ab7320f3c"
+            ],
+            "version": "==1.2.1"
+        },
+        "pygments": {
+            "hashes": [
+                "sha256:485602129949b14247e8b124d28af4654dffbd076537c4a9c44a538a2c1755b7",
+                "sha256:88e4c8a91b2af5962bfa5ea2447ec6dd357018e86e94c7d14bd8cacbc5b55d81"
+            ],
+            "version": "==2.1.3"
+        },
+        "pytz": {
+            "hashes": [
+                "sha256:8781cdd3ca70f5a536884e051797ca213b9ff479a5c1cc57240adf37cc1eff1b",
+                "sha256:be2ff04e94a2b5454ddcfbebb81ee8e46162734d4c2fcc90c422d16ab51f810b",
+                "sha256:c823de61ff40d1996fe087cec343e0503881ca641b897e0f9b86c7683a0bfee1",
+                "sha256:ee7c751544e35a7b7fb5e3fb25a49dade37d51e70a93e5107f10575d7102c311"
+            ],
+            "version": "==2016.4"
+        },
+        "runestone": {
+            "editable": true,
+            "git": "https://github.com/Launch-Code/RunestoneComponents.git",
+            "ref": "51b6024dbbd4df80022830ec263bcdaca0217dfd"
+        },
+        "six": {
+            "hashes": [
+                "sha256:0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1",
+                "sha256:105f8d68616f8248e24bf0e9372ef04d3cc10104f1980f54d57b2ce73a5ad56a"
+            ],
+            "version": "==1.10.0"
+        },
+        "snowballstemmer": {
+            "hashes": [
+                "sha256:919f26a68b2c17a7634da993d91339e288964f93c274f1343e3bbbe2096e1128",
+                "sha256:9f3bcd3c401c3e862ec0ebe6d2c069ebc012ce142cce209c098ccb5b09136e89"
+            ],
+            "version": "==1.2.1"
+        },
+        "sphinx": {
+            "hashes": [
+                "sha256:3453af46c5beeef3e7503d1e106e0cc6eb8b307b096f7e17b1bdbaab64fd9e81",
+                "sha256:c6871a784d24aba9270b6b28541537a57e2fcf4d7c799410eba18236bc76d6bc"
+            ],
+            "version": "==1.4.1"
+        },
+        "sphinx-rtd-theme": {
+            "hashes": [
+                "sha256:74f633ed3a61da1d1d59c3185483c81a9d7346bf0e7b5f29ad0764a6f159b68a",
+                "sha256:ff9b29268824096fc9113904605d83f6aa817102c0f170115b4b39f0ae0651f3"
+            ],
+            "version": "==0.1.8"
+        },
+        "sphinxcontrib-paverutils": {
+            "hashes": [
+                "sha256:9eff533f52212caa9ec256aef69976b3e65b17b0efa85741c7f8e6e0e94302fe",
+                "sha256:da69cc5d86120d5054bbd6212f5abca8d0b5d06ab2b517b039ed15509e4d1ea3"
+            ],
+            "version": "==1.7"
+        }
+    },
+    "develop": {}
+}
