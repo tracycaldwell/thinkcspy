@@ -4,6 +4,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+psycopg2 = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
 
 [packages]
 alabaster = "==0.7.8"
@@ -23,7 +26,7 @@ snowballstemmer = "==1.2.1"
 sphinx = "==1.4.1"
 sphinx-rtd-theme = "==0.1.8"
 sphinxcontrib-paverutils = "==1.7"
-runestone = {editable = true,git = "https://github.com/Launch-Code/RunestoneComponents.git",ref = "lc_stable"}
+runestone = {ref = "lc_stable",git = "https://github.com/Launch-Code/RunestoneComponents.git",editable = true}
 
 [requires]
 python_version = "2.7"
