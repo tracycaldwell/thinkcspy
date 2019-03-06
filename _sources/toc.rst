@@ -11,7 +11,7 @@ Course Syllabus and Schedule
   :maxdepth: 1
 
   course/welcome.rst
-  course/schedule-mar-2018.rst
+  course/generic-schedule.rst
 
 .. toctree::
   :hidden:

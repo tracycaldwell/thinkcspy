@@ -9,7 +9,7 @@ Welcome to Devetry's *Think Python* course!
 
   `Registration open now for class starting April 1st </register>`_
 
-  Mon, Thur; 6pm - 8:30pm
+  Mondays and Thursdays; 6pm - 8:30pm
 
   email `coding101@devetry.com <mailto:coding101@devetry.com>`_ if you have questions
 
