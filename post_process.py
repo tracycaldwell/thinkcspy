@@ -20,6 +20,9 @@ def process_file(fname):
         remove_nav_links(soup)
         include_iframe_on_register_page(soup)
 
+    if fname.endswith('generic-schedule.html'):
+        include_iframe_on_unit1_syllabus_page(soup)
+
     with open(fname, 'wb') as f:
         f.write(u'{}'.format(soup).encode('utf-8'))
 
@@ -58,6 +61,24 @@ def include_iframe_on_register_page(soup):
             frameborder="0"
             width="100%"
             height="1100px"
+        >
+            Loading...
+        </iframe>
+    </div>
+    ''')
+    section.append(registration_iframe)
+
+def include_iframe_on_unit1_syllabus_page(soup):
+    section = soup.find(id='unit-1-calendar')
+    registration_iframe = BeautifulSoup('''
+    <div>
+        <iframe
+            src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=devetry.com_9bh7vhs81a0r8ncf5v2p5pot8c%40group.calendar.google.com&amp;color=%23691426&amp;ctz=America%2FDenver"
+            style="border-width:0"
+            width="100%"
+            height="600px"
+            frameborder="0"
+            scrolling="no"
         >
             Loading...
         </iframe>
