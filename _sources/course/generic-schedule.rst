@@ -41,7 +41,7 @@ In Class
    #. `github.com <https://github.com>`_
    #. `Atom <https://atom.io>`_
 
-#. If there's time, we'll split into pairs to work on Studio: Holiday. A Studio is a practice problem that you work on during class time. Today the studio is optional.
+#. If there's time, we'll split into pairs to work on `Studio: Donuts </Studios/holiday>`_. A Studio is a practice problem that you work on during class time. Today the studio is optional.
 
 Class 1.2:
 -----------------------
@@ -120,7 +120,7 @@ In Class
 
 `Studio: Sherlock </Studios/sherlock>`_
 
-Class 1.5.1:
+Class 1.5:
 ----------------------
 
 Due Today
@@ -146,8 +146,8 @@ In Class
 `Studio: Blurring an Image </Studios/blurring>`_
 
 
-Class 1.5.2:
------------------------
+Class 1.6 (Catch-up Day):
+----------------------------
 
 Due Today
 ^^^^^^^^^
@@ -163,7 +163,7 @@ In Class
 Catch-up day! We'll go over exercises or anything folks would like to understand better. There will be time in class to work on the Initials assignment or other homework.
 
 
-Class 1.6:
+Class 1.7:
 ----------------------
 
 Due Today
@@ -177,7 +177,7 @@ In Class
 
 `Studio: Sorted </Studios/sorted>`_
 
-Class 1.7:
+Class 1.8:
 -----------------------
 
 No new reading today. Work on the `Initials assignment </ProblemSets/Initials>`_ (due on Monday).
@@ -187,7 +187,7 @@ In Class
 
 `Studio: Bugz </Studios/bugz>`_
 
-Class 1.8:
+Class 1.9:
 ---------------------
 
 Due Today
@@ -203,8 +203,8 @@ In Class
 `Studio: Bubble sort </Studios/bubble-sort>`_
 Demo your Initials assignment to an instructor.
 
-Class 1.9.1:
-----------------------
+Class 1.10 (Catch-up Day):
+----------------------------
 
 Due Today
 ^^^^^^^^^
@@ -217,7 +217,7 @@ In Class
 
 Catch-up day. We'll go over homework problems and then have work time during which you can ask questions.
 
-Class 1.9.2:
+Class 1.11:
 -----------------------
 
 Due Today
@@ -230,7 +230,7 @@ In Class
 
 `Studio: Yahtzee </Studios/yahtzee>`_
 
-Class 1.10:
+Class 1.12:
 -----------------------
 
 Due Today
@@ -246,7 +246,7 @@ Group coding! We'll make a simple game together in class. Some options:
 * tic-tac-toe
 * speed-typing (the computer prompts you for a word. You're scored on how long it takes to type it, and number of mistakes)
 
-Class 1.11:
+Class 1.13:
 ------------------------
 
 Due Today
@@ -261,7 +261,7 @@ In Class
 
 Studio: `Counting Characters </Studios/counting-characters>`_
 
-Class 1.12:
+Class 1.14:
 -----------------------
 
 Due Today
@@ -276,7 +276,7 @@ In Class
 * We'll build something together as a class. Maybe a twitter bot or a game? maybe a website? Bring ideas!
 * Anyone who's done with Crypto can demo it to an instructor.
 
-Class 1.13:
+Class 1.15:
 ------------------------
 
 Due Today
@@ -290,7 +290,7 @@ In Class
 * Demo your Crypto assignment to an instructor.
 * Keep building our twitter bots, or other projects. We'll show these off on Thursday
 
-Class 1.14:
+Class 1.16:
 ------------------------
 
 In Class
