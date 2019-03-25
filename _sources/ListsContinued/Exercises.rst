@@ -172,7 +172,7 @@ Exercises
        .. activecode:: ex_9_13
 
 
-Weekly Graded Assignment
+Graded Lesson Assignment
 ========================
 
 .. container:: full_width

@@ -191,7 +191,7 @@ Exercises
                         main()
 
 
-Weekly Graded Assignment
+Graded Lesson Assignment
 ========================
 
 .. container:: full_width

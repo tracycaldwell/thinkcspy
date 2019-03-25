@@ -295,7 +295,7 @@ Exercises
            # testEqual(new_inventory['strawberries'] , 25)
 
 
-Weekly Graded Assignment
+Graded Lesson Assignment
 ========================
 
 .. container:: full_width

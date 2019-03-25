@@ -99,7 +99,7 @@ Exercises
             # TODO calculate the temperature, and report it back to the user
 
 
-Weekly Graded Assignment
+Graded Lesson Assignment
 ========================
 
 .. container:: full_width

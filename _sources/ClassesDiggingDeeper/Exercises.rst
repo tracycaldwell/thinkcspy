@@ -464,7 +464,7 @@ Exercises
         .. activecode:: ch_cl2_q8
 
 
-Weekly Graded Assignment
+Graded Lesson Assignment
 ========================
 
 .. container:: full_width
