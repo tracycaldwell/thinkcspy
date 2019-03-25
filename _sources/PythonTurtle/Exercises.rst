@@ -381,7 +381,7 @@ Exercises
 
 
 
-Weekly Graded Assignment
+Graded Lesson Assignment
 ========================
 
 .. container:: full_width
@@ -404,3 +404,5 @@ Weekly Graded Assignment
     .. activecode:: ex_3_4
 
         nums = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+    
+    **Ready to submit your code?  Time to fork, and submit a Pull Request to**: `this Github Repository <https://github.com/devetrycodeforward/04-list-of-numbers>`_.

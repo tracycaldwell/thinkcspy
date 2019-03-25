@@ -75,12 +75,12 @@ Read through the following chapter, working through the exercises at the end.
 Assignment
 """"""""""
 
-Each chapter in the textbook contains a page called Exercises. At the bottom of that page, you will see that the final exercise is specially marked as a Weekly Graded Assignment. Once your code for a Weekly Graded Assignment is working, copy it from the textbook into a github gist and email us the link.
+Each chapter in the textbook contains a page called Exercises. At the bottom of that page, you will see that the final exercise is specially marked as a Graded Lesson Assignment. Once your code for a Graded Lesson Assignment is working, copy it from the textbook into a github gist and email us the link.
 
 To: coding101@devetry.com
 Subject: Chapter 3 Assignment
 
-Your first Weekly Graded Assignment is to do `this exercise from Chapter 3 </Debugging/Exercises#weekly-graded-assignment>`_.
+Your first Graded Lesson Assignment is to do `this exercise from Chapter 3 </Debugging/Exercises#weekly-graded-assignment>`_.
 
 In Class
 ^^^^^^^^
@@ -103,12 +103,12 @@ Read through the following chapter, working through the exercises at the end.
 Assignment
 """"""""""
 
-Once your code for the weekly graded assignment is working, copy it from the textbook into a github gist and email us the link.
+Once your code for the Graded Lesson Assignment is working, copy it from the textbook into a github gist and email us the link.
 
 To: coding101@devetry.com
 Subject: Chapters 4 and 5 Assignment
 
-Your Weekly Graded Assignment is to do `this exercise from Chapter 4 </PythonTurtle/Exercises#weekly-graded-assignment>`_, and `this one from Chapter 5 </Functions/Exercises#weekly-graded-assignment>`_.
+Your Graded Lesson Assignment is to do `this exercise from Chapter 4 </PythonTurtle/Exercises#weekly-graded-assignment>`_, and `this one from Chapter 5 </Functions/Exercises#weekly-graded-assignment>`_.
 
 (You may submit them as separate files in the same gist, or different gists altogether -- up to you.)
 

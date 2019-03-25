@@ -276,7 +276,7 @@ Exercises
           testEqual(sum_of_initial_odds(range(1,555,2)), 76729)
 
 
-Weekly Graded Assignment
+Graded Lesson Assignment
 ========================
 
 .. container:: full_width

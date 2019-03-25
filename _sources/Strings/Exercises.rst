@@ -260,7 +260,7 @@ Exercises
                     if __name__ == "__main__":
                         main()
 
-Weekly Graded Assignment
+Graded Lesson Assignment
 ========================
 
 .. container:: full_width
