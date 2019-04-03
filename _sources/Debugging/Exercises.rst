@@ -132,5 +132,5 @@ Graded Lesson Assignment
 
      What type of error did the above program have?
 
-    **Ready to submit your code?  Time to fork, and submit a Pull Request to**: `this Github Repository <https://github.com/devetrycodeforward/03-how-many-times-did-you-spin>`_.
+**Ready to submit your code?  Time to fork, and submit a Pull Request to**: `this Github Repository <https://github.com/devetrycodeforward/03-how-many-times-did-you-spin>`_.
 
