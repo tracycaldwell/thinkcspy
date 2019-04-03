@@ -85,7 +85,7 @@ Each chapter in the textbook contains a page called Exercises. At the bottom of 
 To: coding101@devetry.com
 Subject: Chapter 3 Assignment
 
-Your first Graded Lesson Assignment is to do `this exercise from Chapter 3 </Debugging/Exercises#weekly-graded-assignment>`_.
+Your first Graded Lesson Assignment is to do `this exercise from Chapter 3 </Debugging/Exercises#graded-lesson-assignment>`_.
 
 In Class
 ^^^^^^^^
@@ -110,7 +110,7 @@ Once your code for the Graded Lesson Assignment is working, copy it from the tex
 To: coding101@devetry.com
 Subject: Chapters 4 and 5 Assignment
 
-Your Graded Lesson Assignment is to do `this exercise from Chapter 4 </PythonTurtle/Exercises#weekly-graded-assignment>`_, and `this one from Chapter 5 </Functions/Exercises#weekly-graded-assignment>`_.
+Your Graded Lesson Assignment is to do `this exercise from Chapter 4 </PythonTurtle/Exercises#graded-lesson-assignment>`_, and `this one from Chapter 5 </Functions/Exercises#graded-lesson-assignment>`_.
 
 (You may submit them as separate files in the same gist, or different gists altogether -- up to you.)
 
@@ -137,7 +137,7 @@ Once your code for the Graded Lesson Assignment is working, copy it into a githu
 To: coding101@devetry.com
 Subject: Chapter 6 Assignment
 
-Your Graded Lesson Assignment is to do `this exercise from Chapter 6 </Selection/Exercises#weekly-graded-assignment>`_.
+Your Graded Lesson Assignment is to do `this exercise from Chapter 6 </Selection/Exercises#graded-lesson-assignment>`_.
 
 In Class
 ^^^^^^^^
@@ -179,7 +179,7 @@ Class 1.7, Thurs Sep 28
 Due Today
 ^^^^^^^^^
 
-* Please do (and turn in) `this exercise from chapter 8 </MoreAboutIteration/Exercises#weekly-graded-assignment>`_.
+* Please do (and turn in) `this exercise from chapter 8 </MoreAboutIteration/Exercises#graded-lesson-assignment>`_.
 * Read `Chapter 9: Strings </#strings>`_ and try some exercises.
 * Do the `Initials assignment </ProblemSets/Initials>`_.
 
@@ -194,7 +194,7 @@ Class 1.8, Tues Oct 3
 Due Today
 ^^^^^^^^^
 
-* Please do (and turn in) `this exercise from chapter 9 </Strings/Exercises#weekly-graded-assignment>`_.
+* Please do (and turn in) `this exercise from chapter 9 </Strings/Exercises#graded-lesson-assignment>`_.
 * Read `Chapter 10: Lists </#lists>`_ and try some exercises.
 * Do (or start) the `Initials assignment </ProblemSets/Initials>`_.
 
@@ -210,7 +210,7 @@ Class 1.9, Thurs Oct 5
 Due Today
 ^^^^^^^^^
 
-* Please do (and turn in) `this exercise from chapter 10 </Lists/Exercises#weekly-graded-assignment>`_.
+* Please do (and turn in) `this exercise from chapter 10 </Lists/Exercises#graded-lesson-assignment>`_.
   (I just noticed that those are called "Graded Lesson Assignments", yet we usually have two due
   every week. Doesn't seem very fair...)
 
@@ -243,7 +243,7 @@ Class 1.10, Thurs Oct 12
 Due Today
 ^^^^^^^^^
 
-* Please do (and turn in) `this exercise from chapter 11 </Dictionaries/Exercises#weekly-graded-assignment>`_.
+* Please do (and turn in) `this exercise from chapter 11 </Dictionaries/Exercises#graded-lesson-assignment>`_.
 * Read through the `Crypto assignment </ProblemSets/Crypto>`_.
 
 In Class
