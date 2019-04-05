@@ -57,7 +57,7 @@ def include_iframe_on_register_page(soup):
     registration_iframe = BeautifulSoup('''
     <div>
         <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSetaKa9MOfTwx1ACw1jOKIH-N0IvVlIaz7R2mi_M4RBhzEc2g/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSe8pNPuRXhXd1HV37USRtq-3dtoHAFsBgURRbRRZ4q1l1-eFw/viewform?embedded=true"
             frameborder="0"
             width="100%"
             height="1100px"

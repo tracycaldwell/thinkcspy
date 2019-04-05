@@ -7,9 +7,7 @@ Welcome to Devetry's *Think Python* course!
 
 .. container:: registrationlink
 
-  `Registration open now for class starting April 1st </register>`_
-
-  Mondays and Thursdays; 6pm - 8:30pm
+  `Registration currently closed.  Join our waiting list to be notified of future classes.</register>`_
 
   email `coding101@devetry.com <mailto:coding101@devetry.com>`_ if you have questions
 
