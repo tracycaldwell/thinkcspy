@@ -7,7 +7,8 @@ Welcome to Devetry's *Think Python* course!
 
 .. container:: registrationlink
 
-  `Registration currently closed.  Join our waiting list to be notified of future classes.</register>`_
+  Registration currently closed.
+  `Sign up on the waiting list for next semester </register>`_
 
   email `coding101@devetry.com <mailto:coding101@devetry.com>`_ if you have questions
 
