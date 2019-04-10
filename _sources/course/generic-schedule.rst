@@ -104,14 +104,10 @@ Read through the following chapter, working through the exercises at the end.
 Assignment
 """"""""""
 
-Once your code for the Graded Lesson Assignment is working, copy it from the textbook into a github gist and email us the link.
-
-To: coding101@devetry.com
-Subject: Chapters 4 and 5 Assignment
+Once your code for the graded assignment is working, it's time to fork, update, commit, and submit a pull request (PR).
 
 Your Graded Lesson Assignment is to do `this exercise from Chapter 4 </PythonTurtle/Exercises#graded-lesson-assignment>`_, and `this one from Chapter 5 </Functions/Exercises#graded-lesson-assignment>`_.
 
-(You may submit them as separate files in the same gist, or different gists altogether -- up to you.)
 
 In Class
 ^^^^^^^^
@@ -131,10 +127,7 @@ Read through the following chapter, working through the exercises at the end.
 Assignment
 """"""""""
 
-Once your code for the graded assignment is working, copy it into a github gist and email us the link.
-
-To: coding101@devetry.com
-Subject: Chapter 6 Assignment
+Once your code for the graded assignment is working, it's time to fork, update, commit, and submit a pull request (PR).
 
 Your graded assignment is to do `this exercise from Chapter 6 </Selection/Exercises#graded-lesson-assignment>`_.
 
