@@ -319,3 +319,5 @@ Graded Lesson Assignment
         text6 = "Wright's book, Gadsby, contains a total of 0 of that most common symbol ;)"
         answer6 = "The text contains 55 alphabetic characters, of which 0 (0%) are 'e'."
         testEqual(analyze_text(text6), answer6)
+
+**Ready to submit your code?  Time to fork, and submit a Pull Request to**: `this Github Repository <https://github.com/devetrycodeforward/09-analyze-text>`_.
