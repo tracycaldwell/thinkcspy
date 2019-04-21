@@ -146,7 +146,7 @@ Due Today
 Read through the following chapter, working through the exercises at the end.
 
 * `Chapter 8: More About Iteration </#more-about-iteration>`_
-* Read through the `Initials assignment </ProblemSets/Initials>`_ (due on Mon Apr 16).
+* Read through the `Initials assignment </ProblemSets/Initials>`_ (due on class 1.9).
 
 In Class
 ^^^^^^^^
@@ -171,7 +171,7 @@ In Class
 Class 1.8:
 -----------------------
 
-No new reading today. Work on the `Initials assignment </ProblemSets/Initials>`_ (due on Monday).
+No new reading today. Work on the `Initials assignment </ProblemSets/Initials>`_ (due next class).
 
 In Class
 ^^^^^^^^
@@ -259,7 +259,7 @@ Due Today
 ^^^^^^^^^
 
 * Please read `Chapter 13: Classes and Objects - Digging Deeper </#classes-and-objects-digging-deeper>`_ (the last chapter!)
-* Keep working on `Crypto </ProblemSets/Crypto>`_ (due on Monday)
+* Keep working on `Crypto </ProblemSets/Crypto>`_ (due next class)
 
 In Class
 ^^^^^^^^
