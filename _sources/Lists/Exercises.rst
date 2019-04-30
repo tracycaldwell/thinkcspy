@@ -298,3 +298,5 @@ Graded Lesson Assignment
        testEqual(get_country_codes("US$40, AU$89, JP$200"), "US, AU, JP")
        testEqual(get_country_codes("AU$23, NG$900, MX$200, BG$790, ES$2"), "AU, NG, MX, BG, ES")
        testEqual(get_country_codes("CA$40"), "CA")
+
+**Ready to submit your code?  Time to fork, and submit a Pull Request to**: `this Github Repository <https://github.com/devetrycodeforward/10-get-country-code>`_.
